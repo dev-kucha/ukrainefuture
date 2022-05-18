@@ -4,7 +4,7 @@
   //   justify-content: center;
   //   align-items: center;
   padding-top: 44vh;
-  max-width: $mobile;
+  //   max-width: $mobile;
   height: 100vh;
   overflow-y: auto;
   margin: 0 auto;
@@ -25,7 +25,7 @@
   }
 
   @media screen and (min-width: $tablet) {
-    max-width: $tablet;
+    // max-width: $tablet;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url(../img/main-tablet@1x.png);
 
@@ -39,7 +39,7 @@
   }
 
   @media screen and (min-width: $desktop) {
-    max-width: $desktop;
+    // max-width: 1600px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url(../img/main-desktop@1x.png);
 
@@ -51,6 +51,16 @@
         url(../img/main-desktop@2x.png);
     }
   }
+  /* тимчасово для */
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* тимчасово */
+}
+
+.main-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .main-title {
