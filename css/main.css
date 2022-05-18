@@ -63,6 +63,7 @@ a {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-mob@1x.png);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-mob@1x.png);
   background-repeat: no-repeat;
+  background-position-x: center;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -71,9 +72,21 @@ a {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-mob@2x.png);
   }
 }
+@media screen and (min-width: 768px) {
+  .main-section {
+    max-width: 768px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-tablet@1x.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-tablet@1x.png);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .main-section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-tablet@2x.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-tablet@2x.png);
+  }
+}
 
 .main-title {
-  width: 100%;
   height: 152px;
   margin-left: auto;
   margin-right: auto;
@@ -83,10 +96,22 @@ a {
   background-position: center;
   background-size: contain;
 }
+@media screen and (min-width: 768px) {
+  .main-title {
+    max-width: 566px;
+    background-image: url(../img/main-title-tablet.svg);
+    margin-bottom: 68px;
+  }
+}
 
 .main-orglogos {
   max-width: 315px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .main-orglogos {
+    max-width: 566px;
+  }
 }
 
 .main-orglogos_logo-items {
@@ -99,4 +124,13 @@ a {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+.main-orglogos_logo-img {
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .main-orglogos_logo-img {
+    height: 36px;
+  }
 }/*# sourceMappingURL=main.css.map */
