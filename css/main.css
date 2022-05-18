@@ -60,15 +60,15 @@ a {
   max-width: 480px;
   height: 100vh;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../img/main-mob@1x.png);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/main-mob@1x.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-mob@1x.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-mob@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main-section {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../../img/main-mob@2x.png);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/main-mob@2x.png);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-mob@2x.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-mob@2x.png);
   }
 }
 
@@ -78,7 +78,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 66px;
-  background-image: url(../../img/main-title-mob.svg);
+  background-image: url(../img/main-title-mob.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
