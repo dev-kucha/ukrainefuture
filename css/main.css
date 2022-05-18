@@ -86,6 +86,19 @@ a {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-tablet@2x.png);
   }
 }
+@media screen and (min-width: 1200px) {
+  .main-section {
+    max-width: 1200px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-desktop@1x.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-desktop@1x.png);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .main-section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/main-desktop@2x.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-desktop@2x.png);
+  }
+}
 
 .main-title {
   height: 152px;
@@ -102,6 +115,12 @@ a {
     max-width: 566px;
     background-image: url(../img/main-title-tablet.svg);
     margin-bottom: 68px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-title {
+    max-width: 832px;
+    margin-bottom: 54px;
   }
 }
 
@@ -135,5 +154,10 @@ a {
 @media screen and (min-width: 768px) {
   .main-orglogos_logo-img {
     height: 36px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-orglogos_logo-img {
+    height: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
