@@ -65,6 +65,7 @@ a {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/main-mob@1x.png);
   background-repeat: no-repeat;
   background-position-x: center;
+  background-position-y: center;
   background-size: cover;
   /* тимчасово для */
   overflow: auto;
