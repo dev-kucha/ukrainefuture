@@ -1,6 +1,16 @@
 :root {
   --base-color: #ffffff;
+
+  --transfotmation-time: 250ms;
+  --tranformation-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --mainfont: 'Montserrat', sans-serif;
+  --adfont: 'Volkhov', serif;
 }
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Volkhov', serif;
+
 // --primary-text-color: #757575;
 // --title-text-color: #212121;
 //
@@ -16,9 +26,4 @@
 // --background-example-hover-overley: rgba(33, 150, 243, 0.9);
 // --background-occupation-overley: rgba(47, 48, 58, 0.8);
 
-// --transfotmation-time: 250ms;
-// --tranformation-function: cubic-bezier(0.4, 0, 0.2, 1);
 // }
-
-// $body-fonts: 'Roboto', sans-serif;
-// $logo-fonts: 'Raleway', sans-serif;

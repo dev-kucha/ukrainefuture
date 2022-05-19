@@ -11,10 +11,78 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Volkhov:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>UkraineFuture</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="top-menu">
+          <a class="logo" href="/index.html"><img class="logo-icon" src="./img/main-title-tablet.svg" alt=""></a>
+          
+
+        <div class="menu-container" id="menu-container" data-menu>
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a class="site-nav__link link site-nav__link--active" href="./index.html">Головна</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link link" href="#">Галерея робіт</a>
+              </li>
+              <li class="site-nav__item"><a class="site-nav__link link" href="">Контакти</a></li>
+            </ul>
+            <ul class="contacts list">
+              <li class="contacts__item">
+                <a class="contacts__link link-email link" href="mailto:info@domain.com">
+                  <!-- <svg class="contacts__icon">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                  </svg> -->
+                  info@domain.com</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link link-phone link" href="tel:+380444444444">
+                  <!-- <svg class="contacts__icon">
+                    <use href="./images/icons.svg#icon-smartphone"></use></svg
+                  >+38 044 444 44 44</a
+                > -->
+              </li>
+            <!-- </ul>
+            <ul class="menu-social list">
+              <li class="menu-social__item">
+                <a href="" class="menu-social__link link">Instagram</a>
+              </li>
+              <li class="menu-social__item">
+                <a href="" class="menu-social__link link">Twitter</a>
+              </li>
+              <li class="menu-social__item">
+                <a href="" class="menu-social__link link">Facebook</a>
+              </li>
+              <li class="menu-social__item">
+                <a href="" class="menu-social__link link">LinkedIn</a>
+              </li>
+            </ul> -->
+          </div>
+
+<button
+            type="button"
+            class="top-menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+          <svg class="top-menu-icon" width="40" height="40" aria-label="Перемикач мобільного меню">
+            <use class="top-menu-use top-menu-use__cross" href="./img/menu-icons.svg#cross"></use>
+            <use class="top-menu-use top-menu-use__menu" href="./img/menu-icons.svg#menu"></use>
+          </svg>
+        </button>
+        </nav>
+      </div>
+    </header>
+    <main>
     <section class="main-section">
       <h1 class="visually-hidden">UkraineFuture</h1>
       <div class="main-title">
@@ -22,17 +90,22 @@
       <div class="main-orglogos">
         <ul class="main-orglogos_logo-items list">
           <li class="main-orglogos_logo-item">
-            
               <img class="main-orglogos_logo-img" src="./img/naftogaz.svg" alt="Naftogaz logo" /> </li>
             <li class="main-orglogos_logo-item">
               <img class="main-orglogos_logo-img" src="./img/csr.svg" alt="SCR logo"
             /></li><li class="main-orglogos_logo-item">
-            
               <img class="main-orglogos_logo-img" src="./img/girls-stem.svg" alt="Girls STEM logo" />
             </li>
           </li>
         </ul>
       </div>
     </section>
+    <section class="intro-section">
+      <div class="container header__container">
+      </div>
+    </section>
+    </main>
+    <script src="./js/header.js" type="module"></script>
+    <script src="./js/menu.js" type="module"></script>
   </body>
 </html>

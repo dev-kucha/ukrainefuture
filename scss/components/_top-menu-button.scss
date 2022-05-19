@@ -1,0 +1,30 @@
+.top-menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--base-color);
+  position: relative;
+  z-index: 2;
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.top-menu-use {
+  fill: currentColor;
+}
+
+.top-menu-button .top-menu-use__cross {
+  display: none;
+}
+
+.top-menu-button.is-open .top-menu-use__cross {
+  display: block;
+}
+
+.top-menu-button.is-open .top-menu-use__menu {
+  display: none;
+}
