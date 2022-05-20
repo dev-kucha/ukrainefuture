@@ -1,6 +1,8 @@
 @charset "UTF-8";
 :root {
   --base-color: #ffffff;
+  --naftogaz-blue: #00a1de;
+  --main-black: #000000;
   --transfotmation-time: 250ms;
   --tranformation-function: cubic-bezier(0.4, 0, 0.2, 1);
   --mainfont: "Montserrat", sans-serif;
@@ -57,11 +59,6 @@ a {
   list-style: none;
 }
 
-.button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
 .header {
   position: fixed;
   z-index: 2;
@@ -91,21 +88,6 @@ a {
   padding-right: 15px;
   padding-top: 8px;
   padding-bottom: 8px;
-}
-@media screen and (min-width: 480px) {
-  .header_container {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .header_container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header_container {
-    width: 1200px;
-  }
 }
 
 .logo {
@@ -328,4 +310,140 @@ a {
   .main-orglogos_logo-img {
     height: 40px;
   }
+}
+
+.schools-section {
+  position: relative;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  min-height: 322vh;
+  background-color: black;
+  color: var(--naftogaz-blue);
+}
+
+.schools-section_container {
+  position: sticky;
+  top: 124px;
+  outline: 1px wheat dotted;
+}
+
+.schools-section_text {
+  outline: 1px wheat dotted;
+  width: 380px;
+  font-size: 36px;
+  line-height: 1.22;
+  margin: 0 auto 30px;
+}
+
+.schools-section_slider {
+  outline: 1px maroon dotted;
+}
+
+.slider {
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow: hidden;
+}
+
+.slider_plate {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider1_tiles {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-columns: minmax(100px, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.slider1_plate {
+  width: 2485px;
+}
+
+.tile1 {
+  grid-area: 1/1/3/2;
+}
+
+.tile2 {
+  grid-area: 1/2/2/3;
+}
+
+.tile3 {
+  grid-area: 1/3/2/5;
+}
+
+.tile4 {
+  grid-area: 2/2/3/4;
+}
+
+.tile5 {
+  grid-area: 2/4/3/5;
+}
+
+.tile6 {
+  grid-area: 1/5/3/7;
+}
+
+.slider1_added-text {
+  width: 380px;
+  height: 452px;
+  font-size: 36px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  color: var(--base-color);
+}
+
+.slider1_added-text-span {
+  color: var(--naftogaz-blue);
+}
+
+.slider1_stop-slide {
+  outline: 1px tomato dashed;
+}
+
+.slider1_stop-text {
+  width: 400px;
+  margin-left: 60px;
+  margin-right: 40px;
+  font-size: 48px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  color: var(--base-color);
+  margin-bottom: 50px;
+}
+
+.slider1_stop-text-link {
+  color: var(--naftogaz-blue);
+}
+
+.tile_img {
+  display: block;
+}
+
+.btn-donate {
+  display: block;
+  font-family: inherit;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: var(--base-color);
+  background-color: var(--naftogaz-blue);
+  cursor: pointer;
+  padding: 10px 70px;
+  width: 380px;
+  margin: 0 auto;
+  border: 1px solid transparent;
 }/*# sourceMappingURL=main.css.map */

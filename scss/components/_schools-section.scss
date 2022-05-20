@@ -1,30 +1,31 @@
 .schools-section {
-  //   position: relative;
-  padding-top: 100px;
-  outline: 1px maroon dotted;
-  min-height: 250vh;
+  position: relative;
+  padding-top: 124px;
+  padding-bottom: 100px;
+  // outline: 1px maroon dotted;
+  min-height: 322vh;
   background-color: black;
-  color: #00a1de;
-  padding-left: 20px;
-  padding-right: 20px;
+  color: var(--naftogaz-blue);
+  // padding-left: 20px;
+  // padding-right: 20px;
 }
 
 .schools-section_container {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 124px;
+  outline: 1px wheat dotted;
 }
 
 .schools-section_text {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
+  outline: 1px wheat dotted;
+  width: 380px;
   font-size: 36px;
   line-height: 1.22;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 
 .schools-section_slider {
   outline: 1px maroon dotted;
-  height: 486px;
+  // height: 486px;
 }

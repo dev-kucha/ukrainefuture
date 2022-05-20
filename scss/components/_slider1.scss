@@ -1,22 +1,25 @@
 .slider1_tiles {
   display: grid;
+  // display: inline-block;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-auto-columns: minmax(100px, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .slider1_plate {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+  width: 2485px;
+  // display: flex;
+  // justify-content: start;
+  // align-items: center;
 }
 
 .tile {
   //   width: 20px;
   //   height: 20px;
-  background-color: #fff;
-  outline: 1px dotted tomato;
+  // background-color: #fff;
+  // outline: 1px dotted tomato;
 }
 
 .tile1 {
@@ -37,10 +40,38 @@
 .tile6 {
   grid-area: 1 / 5 / 3 / 7;
 }
-.slider1_text {
+
+.slider1_added-text {
+  width: 380px;
+  height: 452px;
+  font-size: 36px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  color: var(--base-color);
+}
+
+.slider1_added-text-span {
+  color: var(--naftogaz-blue);
+}
+
+.slider1_stop-slide {
+  outline: 1px tomato dashed;
+}
+
+.slider1_stop-text {
+  // display: inline-block;
   width: 400px;
   margin-left: 60px;
   margin-right: 40px;
+  font-size: 48px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  color: var(--base-color);
+  margin-bottom: 50px;
+}
+
+.slider1_stop-text-link {
+  color: var(--naftogaz-blue);
 }
 
 .tile_img {
