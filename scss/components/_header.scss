@@ -13,13 +13,14 @@
   transform: translateY(0);
 }
 
-.header__container {
+.header_container {
   width: 100%;
   padding-left: 25px;
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .logo {
   transform: translateY(-200%);
   transition-property: transform;

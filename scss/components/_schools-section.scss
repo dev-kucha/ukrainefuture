@@ -1,0 +1,41 @@
+.schools-section {
+  //   position: relative;
+  padding-top: 100px;
+  outline: 1px maroon dotted;
+  min-height: 200vh;
+  background-color: black;
+  color: #00a1de;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// .schools-section_container {
+//   margin: 0 auto;
+//   padding: 0 15px;
+
+//   @media screen and (min-width: $mobile) {
+//     width: $mobile;
+//   }
+//   @media screen and (min-width: $tablet) {
+//     width: $tablet;
+//   }
+//   @media screen and (min-width: $desktop) {
+//     width: $desktop;
+//   }
+// }
+
+.schools-section_text {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  font-size: 36px;
+  line-height: 1.22;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.schools-section_slider {
+  outline: 1px maroon dotted;
+  height: 486px;
+}

@@ -86,7 +86,7 @@ a {
           transform: translateY(0);
 }
 
-.header__container {
+.header_container {
   width: 100%;
   padding-left: 25px;
   padding-right: 15px;
@@ -300,5 +300,49 @@ a {
 
 .intro-section {
   outline: 1px maroon dotted;
-  height: 100vh;
+  height: 10vh;
+}
+
+.schools-section {
+  padding-top: 100px;
+  outline: 1px maroon dotted;
+  min-height: 200vh;
+  background-color: black;
+  color: #00a1de;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.schools-section_text {
+  position: sticky;
+  top: 100px;
+  font-size: 36px;
+  line-height: 1.22;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.schools-section_slider {
+  outline: 1px maroon dotted;
+  height: 486px;
+}
+
+.slider {
+  position: sticky;
+  top: 400px;
+  width: 100%;
+  background-color: bisque;
+  overflow: hidden;
+}
+
+.slider_plate {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  left: 0;
+  top: 20px;
+  background-color: rgb(170, 117, 38);
+  width: 1000px;
+  height: 200px;
 }/*# sourceMappingURL=main.css.map */
