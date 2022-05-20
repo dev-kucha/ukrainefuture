@@ -9,20 +9,9 @@
   padding-right: 20px;
 }
 
-// .schools-section_container {
-//   margin: 0 auto;
-//   padding: 0 15px;
-
-//   @media screen and (min-width: $mobile) {
-//     width: $mobile;
-//   }
-//   @media screen and (min-width: $tablet) {
-//     width: $tablet;
-//   }
-//   @media screen and (min-width: $desktop) {
-//     width: $desktop;
-//   }
-// }
+.schools-section_container {
+  position: relative;
+}
 
 .schools-section_text {
   position: -webkit-sticky;
