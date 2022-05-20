@@ -66,6 +66,7 @@ a {
 
 .header {
   position: fixed;
+  z-index: 2;
   top: 0;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -306,7 +307,7 @@ a {
 .schools-section {
   padding-top: 100px;
   outline: 1px maroon dotted;
-  min-height: 200vh;
+  min-height: 250vh;
   background-color: black;
   color: #00a1de;
   padding-left: 20px;
@@ -341,8 +342,65 @@ a {
           box-sizing: border-box;
   position: relative;
   left: 0;
-  top: 20px;
-  background-color: rgb(170, 117, 38);
-  width: 1000px;
-  height: 200px;
+  top: 0;
+  width: 1720px;
+}
+
+.slider1_tiles {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.slider1_plate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tile {
+  background-color: #fff;
+  outline: 1px dotted tomato;
+}
+
+.tile1 {
+  grid-area: 1/1/3/2;
+}
+
+.tile2 {
+  grid-area: 1/2/2/3;
+}
+
+.tile3 {
+  grid-area: 1/3/2/5;
+}
+
+.tile4 {
+  grid-area: 2/2/3/4;
+}
+
+.tile5 {
+  grid-area: 2/4/3/5;
+}
+
+.tile6 {
+  grid-area: 1/5/3/7;
+}
+
+.slider1_text {
+  width: 400px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+.tile_img {
+  display: block;
 }/*# sourceMappingURL=main.css.map */

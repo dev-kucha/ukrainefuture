@@ -1,0 +1,48 @@
+.slider1_tiles {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.slider1_plate {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.tile {
+  //   width: 20px;
+  //   height: 20px;
+  background-color: #fff;
+  outline: 1px dotted tomato;
+}
+
+.tile1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.tile2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.tile3 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+.tile4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+.tile5 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.tile6 {
+  grid-area: 1 / 5 / 3 / 7;
+}
+.slider1_text {
+  width: 400px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+.tile_img {
+  display: block;
+}
