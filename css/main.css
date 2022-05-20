@@ -324,19 +324,13 @@ a {
 .schools-section_container {
   position: sticky;
   top: 124px;
-  outline: 1px wheat dotted;
 }
 
 .schools-section_text {
-  outline: 1px wheat dotted;
   width: 380px;
   font-size: 36px;
   line-height: 1.22;
   margin: 0 auto 30px;
-}
-
-.schools-section_slider {
-  outline: 1px maroon dotted;
 }
 
 .slider {
@@ -362,15 +356,14 @@ a {
 
 .slider1_tiles {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: repeat(2, 1fr);
-  grid-auto-columns: minmax(100px, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .slider1_plate {
-  width: 2485px;
+  width: 2388px;
 }
 
 .tile1 {
@@ -404,6 +397,7 @@ a {
   line-height: 1.23;
   letter-spacing: 0.05em;
   color: var(--base-color);
+  margin: 0 52px;
 }
 
 .slider1_added-text-span {
@@ -411,13 +405,11 @@ a {
 }
 
 .slider1_stop-slide {
-  outline: 1px tomato dashed;
+  width: 380px;
+  margin: 0 52px;
 }
 
 .slider1_stop-text {
-  width: 400px;
-  margin-left: 60px;
-  margin-right: 40px;
   font-size: 48px;
   line-height: 1.23;
   letter-spacing: 0.05em;
