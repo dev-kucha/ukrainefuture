@@ -1,0 +1,43 @@
+.requisites-section {
+  color: var(--main-black);
+  background-color: var(--base-color);
+  text-align: center;
+  padding-top: 92px;
+  //   padding-bottom: 30px;
+}
+
+.requisites-section_title {
+  font-size: 48px;
+  line-height: 1.23;
+  margin-bottom: 15px;
+}
+
+.requisites-section_subtitle {
+  font-size: 36px;
+  line-height: 1.23;
+  margin-bottom: 15px;
+}
+
+.requisites-items {
+  margin-bottom: 30px;
+}
+
+.requisites-item {
+  margin-bottom: 30px;
+}
+
+.requisites-item-key {
+  font-size: 24px;
+  line-height: 1.23;
+  margin-bottom: 15px;
+}
+
+.requisites-item-value {
+  font-size: 16px;
+  line-height: 1.23;
+}
+
+.requisites-section_work-1-img {
+  width: 100%;
+  display: block;
+}
