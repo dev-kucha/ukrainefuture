@@ -440,6 +440,7 @@ a {
   position: sticky;
   top: 940px;
   font-size: 36px;
+  line-height: 1.23;
   margin-top: 44px;
 }
 
@@ -548,4 +549,51 @@ a {
   width: 380px;
   margin: 0 auto;
   border: 1px solid transparent;
+}
+
+.footer {
+  color: var(--base-color);
+  background-color: var(--main-black);
+  text-align: center;
+  padding-top: 92px;
+  padding-bottom: 30px;
+}
+
+.footer_title {
+  font-size: 48px;
+  line-height: 1.23;
+  margin-bottom: 20px;
+}
+
+.social {
+  font-size: 14px;
+  line-height: 1.23;
+  margin-bottom: 40px;
+}
+
+.social_item {
+  margin-bottom: 30px;
+}
+
+.social_icon {
+  margin-bottom: 15px;
+}
+
+.insta {
+  margin-bottom: 60px;
+}
+
+.insta_text {
+  font-size: 20px;
+  line-height: 1.23;
+  margin-bottom: 15px;
+}
+
+.insta_link {
+  font-size: 14px;
+  line-height: 1.23;
+}
+
+.main-orglogos--footer {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
