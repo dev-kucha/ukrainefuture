@@ -7,13 +7,14 @@
 }
 
 .slider1_plate {
-  width: 2388px;
-  // display: flex;
+  // width: 2388px;
+  background-color: var(--main-black); // display: flex;
   // justify-content: start;
   // align-items: center;
 }
 
 .tile {
+  border-radius: 5px;
   //   width: 20px;
   //   height: 20px;
   // background-color: #fff;
@@ -40,22 +41,26 @@
 }
 
 .slider1_added-text {
-  width: 380px;
-  height: 452px;
-  font-size: 36px;
+  width: $mobile;
+  padding: 0 15px;
+  // height: 452px;
+  // font-size: 36px;
+  font-size: 30px;
   line-height: 1.23;
   letter-spacing: 0.05em;
-  color: var(--base-color);
+  color: var(--naftogaz-blue);
   margin: 0 52px;
 }
 
 .slider1_added-text-span {
-  color: var(--naftogaz-blue);
+  color: var(--base-color);
 }
 
 .slider1_stop-slide {
-  width: 380px;
-  margin: 0 52px;
+  width: $mobile;
+  padding: 0 15px;
+  // margin: 0 52px;
+  outline: 1px rgb(175, 176, 212) dotted;
 }
 
 .slider1_stop-text {
@@ -63,7 +68,7 @@
   // width: 400px;
   // margin-left: 60px;
   // margin-right: 40px;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.23;
   letter-spacing: 0.05em;
   color: var(--base-color);

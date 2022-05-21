@@ -8,7 +8,11 @@
   background-color: var(--naftogaz-blue);
   cursor: pointer;
   padding: 10px 70px;
-  width: 380px;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid transparent;
+
+  @media screen and (min-width: $mobile) {
+    width: 380px;
+  }
 }
