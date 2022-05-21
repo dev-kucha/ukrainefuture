@@ -353,7 +353,7 @@ a {
 
 .intro-section_work-2 {
   position: relative;
-  bottom: -100px;
+  bottom: 0px;
 }
 
 .intro-section_work-2-img {
@@ -364,7 +364,7 @@ a {
   position: relative;
   padding-top: 124px;
   padding-bottom: 100px;
-  min-height: 322vh;
+  min-height: 332vh;
   background-color: black;
   color: var(--naftogaz-blue);
 }
@@ -379,6 +379,68 @@ a {
   font-size: 30px;
   line-height: 1.22;
   margin: 0 auto 30px;
+}
+
+.intro2-section {
+  color: var(--main-black);
+  padding-bottom: 46px;
+}
+
+.intro2-section_container {
+  position: relative;
+}
+
+.intro2-section_work-1 {
+  position: sticky;
+  top: 0;
+  margin: 0 -15px;
+}
+
+.intro2-section_work-1-img {
+  display: block;
+  width: 460px;
+}
+
+.intro2-section_work-2 {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 0 -15px;
+}
+
+.intro2-section_work-2-img {
+  display: block;
+  width: 460px;
+}
+
+.intro2-section_work-3 {
+  position: sticky;
+  top: 0;
+  margin: 0 -15px;
+}
+
+.intro2-section_work-3-img {
+  display: block;
+  width: 460px;
+}
+
+.intro2-section_work-4 {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  margin: 0 -15px;
+}
+
+.intro2-section_work-4-img {
+  display: block;
+  width: 460px;
+}
+
+.intro2-section_small-text {
+  position: sticky;
+  top: 940px;
+  font-size: 36px;
+  margin-top: 44px;
 }
 
 .slider {
