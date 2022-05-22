@@ -3,7 +3,7 @@
   color: var(--base-color);
   min-height: 100vh;
   //   position: relative;
-  background-color: var(--naftogaz-blue);
+
   //   overflow-x: hidden;
   //   outline: 1px rgb(245, 140, 140) dotted;
 }
@@ -36,6 +36,8 @@
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
+  background-color: var(--naftogaz-blue);
+  margin: 0 -15px;
 }
 
 .invi-section_text {
@@ -44,6 +46,8 @@
   line-height: 1.23;
   letter-spacing: 0.05em;
   margin-bottom: 30px;
+  padding: 0 30px;
+
   //   outline: 1px rgb(165, 207, 172) dotted;
 }
 .invi-section_slider {

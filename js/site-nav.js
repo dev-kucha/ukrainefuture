@@ -1,7 +1,6 @@
 /* Плавна прокрутка меню */
 `use strict`;
 let anchors = document.querySelectorAll('.site-nav a[href*="#"]');
-console.log(anchors);
 let anchor;
 let anchorId;
 const mobileMenuRef = document.querySelector('[data-menu]');
