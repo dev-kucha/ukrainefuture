@@ -3,7 +3,9 @@ console.log('newSlider', newSlider);
 console.log('newSlider.offsetTop', newSlider.offsetTop);
 const newSliderPlate = document.querySelector('.new-slider_plate');
 console.log('newSliderPlate', newSliderPlate);
-const inviSection = document.querySelector('.invi-section');
+//const inviSection = document.querySelector('.invi-section'); міняю блок для перевірки слайдера блока
+const inviSection = document.querySelector('.aboutwar-section');
+
 console.log('inviSection', inviSection);
 const stickySpacer = document.querySelector('.sticky-spacer');
 console.log('stickySpacer', stickySpacer);
