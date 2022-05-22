@@ -1,0 +1,15 @@
+.site-nav {
+  color: var(--base-color);
+  font-size: 36px;
+  line-height: 1.23;
+}
+
+.site-nav__item {
+  margin-bottom: 30px;
+}
+
+.site-nav__item:hover,
+.site-nav__item:focus,
+.site-nav__item:active {
+  color: var(--naftogaz-blue);
+}

@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Volkhov:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Volkhov:ital@1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
@@ -30,16 +30,16 @@
           <div class="menu-container" id="menu-container" data-menu>
             <ul class="site-nav list">
               <li class="site-nav__item">
-                <a class="site-nav__link link site-nav__link--active" href="./index.html"
-                  >Головна</a
-                >
+                <a class="site-nav__link link site-nav__link--active" href="#intro">Про проєкт</a>
               </li>
               <li class="site-nav__item">
-                <a class="site-nav__link link" href="#">Галерея робіт</a>
+                <a class="site-nav__link link" href="#requisites">Підтримати</a>
               </li>
-              <li class="site-nav__item"><a class="site-nav__link link" href="">Контакти</a></li>
+              <li class="site-nav__item">
+                <a class="site-nav__link link" href="#contacts">Контакти</a>
+              </li>
             </ul>
-            <ul class="contacts list">
+            <!-- <ul class="contacts list">
               <li class="contacts__item">
                 <a class="contacts__link link-email link" href="mailto:info@domain.com">
                   info@domain.com</a
@@ -48,7 +48,7 @@
               <li class="contacts__item">
                 <a class="contacts__link link-phone link" href="tel:+380444444444"> </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <button
             type="button"
@@ -94,7 +94,7 @@
           </div>
         </div>
       </section>
-      <section class="intro-section">
+      <section id="intro" class="intro-section">
         <div class="container intro-section_container">
           <div class="intro-section_large-text">Понад 350</div>
           <div class="intro-section_small-text-container">
@@ -108,16 +108,6 @@
           <div class="intro-section_work-2">
             <img src="./img/intro-section_work-2.png" alt="" class="intro-section_work-2-img" />
           </div>
-          <!-- <div class="intro-section_large-text">Понад 350 українських <br />дітей</div>
-          <div class="intro-section_small-text">
-            підготували<br />творчі роботи<br />про Україну<br />після<br />Перемоги
-          </div>
-          <div class="intro-section_work-1">
-            <img src="./img/intro-section_work-1.png" alt="" class="intro-section_work-1-img" />
-          </div>
-          <div class="intro-section_work-2">
-            <img src="./img/intro-section_work-2.png" alt="" class="intro-section_work-2-img" />
-          </div> -->
         </div>
       </section>
       <section class="schools-section">
@@ -249,7 +239,7 @@
           </div>
         </div>
       </section>
-      <section class="requisites-section">
+      <section id="requisites" class="requisites-section">
         <div class="container requisites-section_container">
           <h2 class="requisites-section_title title">Реквізити</h2>
           <div class="requisites-section_subtitle">ГО Центр КСВ</div>
@@ -285,7 +275,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="container footer_container">
         <h2 class="footer_title title">Контакти</h2>
         <div class="social">
@@ -328,7 +318,7 @@
               Творчі роботи всіх учасників можна подивитися в Інстаграмі проєкту!
             </div>
             <div class="insta_link">
-              <a href="https://www.instagram.com/ukraine_future_prosperity/ #ukraine_future"
+              <a href="https://www.instagram.com/ukraine_future_prosperity/#ukraine_future"
                 >https://www.instagram.com/<br />ukraine_future_prosperity/<br />#ukraine_future</a
               >
             </div>
@@ -363,6 +353,7 @@
     </footer>
     <script src="./js/header.js" type="module"></script>
     <script src="./js/menu.js" type="module"></script>
+    <script src="./js/site-nav.js" type="module"></script>
     <script src="./js/slider.js" type="module"></script>
   </body>
 </html>

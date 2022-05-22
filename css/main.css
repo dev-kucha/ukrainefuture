@@ -129,6 +129,8 @@ a {
 
 .menu-container {
   width: 100%;
+  padding-top: 90px;
+  padding-bottom: 60px;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -141,10 +143,10 @@ a {
 @media screen and (max-width: 767px) {
   .menu-container {
     position: fixed;
-    top: 60px;
+    top: 0;
     right: -100%;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--main-black);
     padding: 48px 40px;
   }
 }
@@ -185,6 +187,22 @@ a {
 
 .top-menu-button.is-open .top-menu-use__menu {
   display: none;
+}
+
+.site-nav {
+  color: var(--base-color);
+  font-size: 36px;
+  line-height: 1.23;
+}
+
+.site-nav__item {
+  margin-bottom: 30px;
+}
+
+.site-nav__item:hover,
+.site-nav__item:focus,
+.site-nav__item:active {
+  color: var(--naftogaz-blue);
 }
 
 .container {
