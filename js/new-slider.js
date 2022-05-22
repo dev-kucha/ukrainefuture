@@ -1,6 +1,6 @@
 const newSlider = document.querySelector('.new-slider');
-console.log('newSlider', newSlider);
-console.log('newSlider.offsetTop', newSlider.offsetTop);
+/* console.log('newSlider', newSlider); */
+/* console.log('newSlider.offsetTop', newSlider.offsetTop); */
 const newSliderPlate = document.querySelector('.new-slider_plate');
 console.log('newSliderPlate', newSliderPlate);
 //const inviSection = document.querySelector('.invi-section'); міняю блок для перевірки слайдера блока
@@ -20,16 +20,16 @@ window.onscroll = onScroll;
 
 window.addEventListener('scroll', function () {
   console.log('window.pageYOffset', window.pageYOffset);
-  console.log('inviSection.offsetTop', inviSection.offsetTop);
-  console.log('stickySpacer.offsetTop', stickySpacer.offsetTop);
+  /*   console.log('inviSection.offsetTop', inviSection.offsetTop); */
+  /*   console.log('stickySpacer.offsetTop', stickySpacer.offsetTop); */
 
-  var top = window.pageYOffset;
+  /*   var top = window.pageYOffset;
   if (scroll > top) {
     console.log('1');
   } else if (scroll < top) {
     console.log('0');
   }
-  scroll = top;
+  scroll = top; */
 
   if (window.onscroll) {
     console.log('scroll down');
