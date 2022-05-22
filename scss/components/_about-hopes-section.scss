@@ -1,18 +1,20 @@
-.aboutwar-section {
+.about-hopes-section {
   padding-top: 124px;
   color: var(--base-color);
   min-height: 100vh;
-  background-color: var(--main-black);
 }
 
-// .sticky-spacer {
-//   width: 20px;
-//   height: 2400px;
-//   background-color: rgb(13, 156, 25);
-//   margin-left: -50px;
+.sticky-spacer {
+  width: 20px;
+  height: 2400px;
+  background-color: rgb(21, 50, 146);
+  margin-left: -50px;
+}
+
+// .about-hopes-section_container {
 // }
 
-.aboutwar-section_flex-container {
+.about-hopes-section_flex-container {
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
@@ -22,16 +24,16 @@
   justify-content: flex-end;
 }
 
-.aboutwar-section_flex-container2 {
+.about-hopes-section_flex-container2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
-  background-color: var(--main-black);
+  background-color: var(--naftogaz-blue);
   margin: 0 -15px;
 }
 
-.aboutwar-section_text {
+.about-hopes-section_text {
   font-weight: 800;
   font-size: 40px;
   line-height: 1.23;
@@ -40,6 +42,5 @@
   padding: 0 30px;
 }
 
-// .invi-section_slider {
-
+// .about-hopes-section_slider {
 // }

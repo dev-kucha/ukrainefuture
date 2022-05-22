@@ -818,6 +818,7 @@ a {
   padding-top: 124px;
   color: var(--base-color);
   min-height: 100vh;
+  background-color: var(--main-black);
 }
 
 .aboutwar-section_flex-container {
