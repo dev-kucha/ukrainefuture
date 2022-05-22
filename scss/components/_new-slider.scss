@@ -1,0 +1,27 @@
+.new-slider {
+  //   overflow: hidden;
+  margin-left: -15px;
+}
+
+.new-slider_plate {
+  width: 2400px; // temp
+  //   height: 100px; // temp
+  height: 100%;
+  padding-left: 15px;
+  //   padding: 58px 15px;
+  //   background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -1867px;
+}
+
+.new-slider_plate-content {
+  //   background-color: rgb(135, 202, 222);
+}
+
+.new-slider_stop-slide {
+  width: 480px;
+  background-color: rgb(220, 235, 230);
+  margin: 0 52px;
+}
