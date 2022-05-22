@@ -190,7 +190,6 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px gray dotted;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -358,6 +357,7 @@ a {
 
 .intro-section_work-2-img {
   display: block;
+  width: 100%;
 }
 
 .schools-section {
@@ -375,7 +375,6 @@ a {
 }
 
 .schools-section_text {
-  width: 380px;
   font-size: 30px;
   line-height: 1.22;
   margin: 0 auto 30px;
@@ -558,6 +557,89 @@ a {
   border: 1px solid transparent;
 }
 
+.our-target-section {
+  color: var(--base-color);
+  background-color: var(--naftogaz-blue);
+  padding-top: 92px;
+  padding-bottom: 60px;
+}
+
+.our-target-section_large-text {
+  font-size: 40px;
+  line-height: 1.23;
+  margin-bottom: 30px;
+}
+
+.youtube-media {
+  margin-bottom: 30px;
+}
+
+.youtube-player {
+  width: 100%;
+  height: 270px;
+}
+
+.progres-bar {
+  text-align: center;
+}
+
+.progres-bar_text {
+  font-size: 24px;
+  line-height: 1.23;
+  margin-bottom: 15px;
+}
+
+.progres-bar_loader-line {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--base-color);
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.progres-bar_loader-line:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  height: 20px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  left: 5px;
+  width: 40px;
+}
+
+@-webkit-keyframes lineAnim {
+  0% {
+    left: 5px;
+    width: 20px;
+  }
+  50% {
+    left: 5px;
+    width: 30px;
+  }
+  100% {
+    left: 5px;
+    width: 40px;
+  }
+}
+
+@keyframes lineAnim {
+  0% {
+    left: 5px;
+    width: 20px;
+  }
+  50% {
+    left: 5px;
+    width: 30px;
+  }
+  100% {
+    left: 5px;
+    width: 40px;
+  }
+}
 .requisites-section {
   color: var(--main-black);
   background-color: var(--base-color);
@@ -574,7 +656,7 @@ a {
 .requisites-section_subtitle {
   font-size: 36px;
   line-height: 1.23;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .requisites-items {
@@ -588,7 +670,7 @@ a {
 .requisites-item-key {
   font-size: 24px;
   line-height: 1.23;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .requisites-item-value {
