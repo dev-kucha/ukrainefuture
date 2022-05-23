@@ -43,6 +43,7 @@
   grid-column-start: 3;
   grid-row-end: 2;
   grid-column-end: 5;
+  max-width: 380px;
 }
 
 .aboutwar-tile5 {
@@ -86,7 +87,7 @@
 
 .aboutwar-slider_tile-text {
   color: var(--base-color);
-  padding-left: 25px;
+  padding-left: 5px;
   padding-right: 25px;
 }
 

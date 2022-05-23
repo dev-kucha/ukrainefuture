@@ -8,10 +8,10 @@ const inviSlider = document.querySelector('.invi-section_slider');
 const inviSliderPlate = document.querySelector('.invi-slider_plate ');
 const inviSliderStopSlide = document.querySelector('.invi-slider_stop-slide');
 
-// const aboutHopesSection = document.querySelector('.about-hopes-section');
-// const aboutHopesSlider = document.querySelector('.about-hopes-section_slider');
-// const aboutHopesSliderPlate = document.querySelector('.about-hopes-slider_plate ');
-// const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_stop-slide');
+const aboutHopesSection = document.querySelector('.about-hopes-section');
+const aboutHopesSlider = document.querySelector('.about-hopes-section_slider');
+const aboutHopesSliderPlate = document.querySelector('.about-hopes-slider_plate ');
+const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_stop-slide');
 
 /* змінюємо ширину стоп-слайда */
 const container = document.querySelector('.container');
@@ -19,6 +19,7 @@ let widthContainer = getComputedStyle(container).width;
 if (parseInt(widthContainer) < 450) {
   aboutwarSliderStopSlide.style.width = widthContainer;
   inviSliderStopSlide.style.width = widthContainer;
+  aboutHopesSliderStopSlide.style.width = widthContainer;
   /*   console.log('widthContainer', widthContainer); */
   /*   console.log('aboutwarSliderStopSlide.style.width', aboutwarSliderStopSlide.style.width); */
 }
@@ -55,12 +56,14 @@ window.addEventListener('scroll', function () {
       inviSliderPlate.style.left = inviSection.offsetTop - window.pageYOffset + 'px';
     }
   }
-  // if (window.pageYOffset > aboutHopesSection.offsetTop) {
-  //   if (
-  //     aboutHopesSliderStopSlide.getBoundingClientRect().left >
-  //     aboutHopesSlider.getBoundingClientRect().left
-  //   ) {
-  //     aboutHopesSliderPlate.style.left = aboutHopesSection.offsetTop - window.pageYOffset + 'px';
-  //   }
-  // }
+  if (window.pageYOffset > aboutHopesSection.offsetTop) {
+    if (
+      aboutHopesSlider.offsetWidth - (aboutHopesSection.offsetTop - window.pageYOffset) <=
+      aboutHopesSliderPlate.offsetWidth
+      /*       aboutHopesSliderStopSlide.getBoundingClientRect().left >
+      aboutHopesSlider.getBoundingClientRect().left */
+    ) {
+      aboutHopesSliderPlate.style.left = aboutHopesSection.offsetTop - window.pageYOffset + 'px';
+    }
+  }
 });

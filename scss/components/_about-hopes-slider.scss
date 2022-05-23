@@ -1,3 +1,138 @@
 .about-hopes-slider {
   height: 586px; //temporary
 }
+
+.about-hopes-slider_plate {
+  background-color: var(--base-color);
+  //   margin-left: -20px;
+}
+
+.about-hopes-slider_tiles {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 0px;
+
+  height: 100%;
+}
+
+.about-hopes-tile1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+
+.about-hopes-tile2 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+
+.about-hopes-tile3 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+.about-hopes-tile4 {
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-row-end: 2;
+  grid-column-end: 6;
+}
+
+.about-hopes-tile5 {
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-row-end: 3;
+  grid-column-end: 7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-hopes-tile6 {
+  grid-row-start: 1;
+  grid-column-start: 7;
+  grid-row-end: 3;
+  grid-column-end: 8;
+}
+
+.about-hopes-tile7 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+.about-hopes-tile8 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-hopes-tile9 {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-row-end: 3;
+  grid-column-end: 6;
+}
+
+.about-hopes-slider_tile-img {
+  display: block;
+}
+
+.about-hopes-slider_tile-text {
+  color: var(--main-black);
+  //   font-size: 18px;
+  //   line-height: 1.23;
+  //   letter-spacing: 0.05em;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Volkhov', serif;
+  font-size: 18px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+}
+
+.about-hopes-slider_tile-text1 {
+  max-width: 280px;
+}
+
+.about-hopes-slider_tile-text2 {
+  max-width: 450px;
+}
+
+.about-hopes-slider_tile-text-pre {
+  font-family: 'Volkhov', serif;
+  font-size: 18px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+}
+
+//.about-hopes-slider_stop-slide {
+//   height: 100%;
+// padding-left: 15px;
+//}
+
+.about-hopes-slider_stop-text {
+  color: var(--main-black);
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  width: 380px;
+  margin: 0 auto 50px;
+}
+
+.about-hopes-slider_stop-text-link {
+  color: var(--naftogaz-blue);
+}
