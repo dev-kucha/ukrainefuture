@@ -13,19 +13,28 @@ const inviSliderStopSlide = document.querySelector('.invi-slider_stop-slide');
 // const aboutHopesSliderPlate = document.querySelector('.about-hopes-slider_plate ');
 // const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_stop-slide');
 
+/* змінюємо ширину стоп-слайда */
+const container = document.querySelector('.container');
+let widthContainer = getComputedStyle(container).width;
+if (parseInt(widthContainer) < 450) {
+  aboutwarSliderStopSlide.style.width = widthContainer;
+  inviSliderStopSlide.style.width = widthContainer;
+  /*   console.log('widthContainer', widthContainer); */
+  /*   console.log('aboutwarSliderStopSlide.style.width', aboutwarSliderStopSlide.style.width); */
+}
+/* змінили ширину стоп-слайда */
 window.addEventListener('scroll', function () {
-  console.log('aboutwarSection.offsetTop', aboutwarSection.offsetTop);
-  //
-  console.log('aboutwarSliderPlate.style.left', aboutwarSliderPlate.style.left);
-  console.log('window.pageYOffset', window.pageYOffset);
-  console.log(
+  /*   console.log('aboutwarSection.offsetTop', aboutwarSection.offsetTop); */
+  /*   console.log('aboutwarSliderPlate.style.left', aboutwarSliderPlate.style.left); */
+  /*   console.log('window.pageYOffset', window.pageYOffset); */
+  /*   console.log(
     'aboutwarSection.offsetTop - window.pageYOffset + aboutwarSlider.getBoundingClientRect().left',
     aboutwarSection.offsetTop - window.pageYOffset + aboutwarSlider.getBoundingClientRect().left
-  );
+  ); */
   if (window.pageYOffset > aboutwarSection.offsetTop) {
-    console.log('aboutwarSlider.offsetWidth)', aboutwarSlider.offsetWidth);
-    console.log('aboutwarSliderPlate.offsetWidth)', aboutwarSliderPlate.offsetWidth);
-    console.log('aboutwarSliderPlate.offsetRight)', aboutwarSliderPlate.offsetRight);
+    /*     console.log('aboutwarSlider.offsetWidth)', aboutwarSlider.offsetWidth); */
+    /*     console.log('aboutwarSliderPlate.offsetWidth)', aboutwarSliderPlate.offsetWidth); */
+    /*     console.log('aboutwarSliderPlate.offsetRight)', aboutwarSliderPlate.offsetRight); */
     if (
       // aboutwarSection.offsetTop -
       //   window.pageYOffset +
@@ -39,7 +48,9 @@ window.addEventListener('scroll', function () {
   }
   if (window.pageYOffset > inviSection.offsetTop) {
     if (
-      inviSliderStopSlide.getBoundingClientRect().left > inviSlider.getBoundingClientRect().left
+      inviSlider.offsetWidth - (inviSection.offsetTop - window.pageYOffset) <=
+      inviSliderPlate.offsetWidth
+      /*       inviSliderStopSlide.getBoundingClientRect().left > inviSlider.getBoundingClientRect().left */
     ) {
       inviSliderPlate.style.left = inviSection.offsetTop - window.pageYOffset + 'px';
     }
