@@ -14,10 +14,25 @@ const inviSliderStopSlide = document.querySelector('.invi-slider_stop-slide');
 // const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_stop-slide');
 
 window.addEventListener('scroll', function () {
+  console.log('aboutwarSection.offsetTop', aboutwarSection.offsetTop);
+  //
+  console.log('aboutwarSliderPlate.style.left', aboutwarSliderPlate.style.left);
+  console.log('window.pageYOffset', window.pageYOffset);
+  console.log(
+    'aboutwarSection.offsetTop - window.pageYOffset + aboutwarSlider.getBoundingClientRect().left',
+    aboutwarSection.offsetTop - window.pageYOffset + aboutwarSlider.getBoundingClientRect().left
+  );
   if (window.pageYOffset > aboutwarSection.offsetTop) {
+    console.log('aboutwarSlider.offsetWidth)', aboutwarSlider.offsetWidth);
+    console.log('aboutwarSliderPlate.offsetWidth)', aboutwarSliderPlate.offsetWidth);
+    console.log('aboutwarSliderPlate.offsetRight)', aboutwarSliderPlate.offsetRight);
     if (
-      aboutwarSliderStopSlide.getBoundingClientRect().left >
-      aboutwarSlider.getBoundingClientRect().left
+      // aboutwarSection.offsetTop -
+      //   window.pageYOffset +
+      // aboutwarSliderStopSlide.getBoundingClientRect().left >=
+      // aboutwarSlider.getBoundingClientRect().left
+      aboutwarSlider.offsetWidth - (aboutwarSection.offsetTop - window.pageYOffset) <=
+      aboutwarSliderPlate.offsetWidth
     ) {
       aboutwarSliderPlate.style.left = aboutwarSection.offsetTop - window.pageYOffset + 'px';
     }
