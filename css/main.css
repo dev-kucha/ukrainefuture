@@ -362,7 +362,7 @@ a {
       flex-shrink: 0;
 }
 .intro-section_work-1::after {
-  content: url(../../img/i.svg);
+  content: url(../img/i.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

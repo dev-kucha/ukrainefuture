@@ -52,7 +52,7 @@
   // bottom: 234px;
   flex-shrink: 0;
   &::after {
-    content: url(../../img/i.svg);
+    content: url(../img/i.svg);
     display: flex;
     justify-content: center;
     align-items: center;
