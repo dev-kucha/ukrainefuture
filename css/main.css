@@ -390,7 +390,7 @@ a {
   bottom: 0px;
 }
 .intro-section_work-2::after {
-  content: url(../../img/i.svg);
+  content: url(../img/i.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
