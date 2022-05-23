@@ -23,6 +23,12 @@
   margin: -1px;
 }
 
+.sticky-spacer {
+  width: 20px;
+  height: 2400px;
+  margin-left: -50px;
+}
+
 body {
   background-color: #ffffff;
   margin: 0;
@@ -88,6 +94,11 @@ a {
   padding-right: 15px;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+@media screen and (min-width: 480px) {
+  .header_container {
+    width: 480px;
+  }
 }
 
 .logo {
@@ -606,13 +617,6 @@ a {
   min-height: 100vh;
 }
 
-.sticky-spacer {
-  width: 20px;
-  height: 2400px;
-  background-color: rgb(21, 50, 146);
-  margin-left: -50px;
-}
-
 .invi-section_flex-container {
   position: sticky;
   top: 120px;
@@ -954,13 +958,6 @@ a {
   padding-top: 124px;
   color: var(--base-color);
   min-height: 100vh;
-}
-
-.sticky-spacer {
-  width: 20px;
-  height: 2400px;
-  background-color: rgb(21, 50, 146);
-  margin-left: -50px;
 }
 
 .about-hopes-section_flex-container {

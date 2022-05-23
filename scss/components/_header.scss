@@ -9,6 +9,10 @@
   transition-property: transform;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
+
+  //  @media screen and (min-width: $mobile) {
+  // width: $mobile;
+  //}
 }
 
 .header.active {
@@ -23,9 +27,9 @@
   padding-top: 8px;
   padding-bottom: 8px;
 
-  // @media screen and (min-width: $mobile) {
-  //   width: $mobile;
-  // }
+  @media screen and (min-width: $mobile) {
+    width: $mobile;
+  }
   // @media screen and (min-width: $tablet) {
   //   width: $tablet;
   // }
