@@ -139,16 +139,12 @@ a {
           transition-duration: var(--transfotmation-time);
   -webkit-transition-timing-function: var(--tranformation-function);
           transition-timing-function: var(--tranformation-function);
-}
-@media screen and (max-width: 767px) {
-  .menu-container {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    z-index: 1;
-    background-color: var(--main-black);
-    padding: 48px 40px;
-  }
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  background-color: var(--main-black);
+  padding: 48px 40px;
 }
 .menu-container.is-open {
   -webkit-transform: translateX(-100%);
@@ -166,11 +162,6 @@ a {
   color: var(--base-color);
   position: relative;
   z-index: 2;
-}
-@media screen and (min-width: 768px) {
-  .top-menu-button {
-    display: none;
-  }
 }
 
 .top-menu-use {
@@ -212,16 +203,6 @@ a {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
   }
 }
 
@@ -331,13 +312,12 @@ a {
 }
 
 .intro-section {
-  outline: 1px maroon dotted;
   padding-top: 100px;
   color: var(--main-black);
 }
 
 .intro-section_container {
-  outline: 1px gray dotted;
+  position: relative;
 }
 
 .intro-section_large-text {
@@ -797,10 +777,6 @@ a {
   letter-spacing: 0.05em;
 }
 
-.invi-slider_stop-slide {
-  padding-left: 15px;
-}
-
 .invi-slider_stop-text {
   color: var(--main-black);
   font-size: 40px;
@@ -960,10 +936,6 @@ a {
   letter-spacing: 0.05em;
 }
 
-.aboutwar-slider_stop-slide {
-  padding-left: 15px;
-}
-
 .aboutwar-slider_stop-text {
   color: var(--base-color);
   font-size: 40px;
@@ -975,6 +947,66 @@ a {
 
 .aboutwar-slider_stop-text-link {
   color: var(--naftogaz-blue);
+}
+
+.about-hopes-section {
+  padding-top: 124px;
+  color: var(--base-color);
+  min-height: 100vh;
+}
+
+.sticky-spacer {
+  width: 20px;
+  height: 2400px;
+  background-color: rgb(21, 50, 146);
+  margin-left: -50px;
+}
+
+.about-hopes-section_flex-container {
+  position: sticky;
+  top: 120px;
+  height: calc(100vh - 124px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about-hopes-section_flex-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: var(--naftogaz-blue);
+  margin: 0 -15px;
+}
+
+.about-hopes-section_text {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.about-hopes-slider {
+  height: 586px;
 }
 
 .our-target-section {
