@@ -4,9 +4,11 @@
   //   overflow: hidden;
   //   overflow-x: hidden;
 }
-.intro2-section_container {
-  //   overflow: hidden;
-}
+
+//.intro2-section_container {
+//   overflow: hidden;
+//}
+
 .intro2-section_sticky-container {
   position: relative;
 }
@@ -44,7 +46,14 @@
   top: 0;
   z-index: 3;
   margin: 0 -15px;
+
+  // &::after {
+  //   @extend %i-after;
+  //   bottom: 6px;
+  //   left: 15px;
+  // }
 }
+
 .intro2-section_work-4-img {
   display: block;
   width: 100%;

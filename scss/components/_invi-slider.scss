@@ -28,6 +28,12 @@
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 2;
+
+  &::after {
+    @extend %i-after;
+    bottom: 16px;
+    left: 12px;
+  }
 }
 
 .invi-tile2 {
