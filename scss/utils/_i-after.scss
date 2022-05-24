@@ -1,0 +1,12 @@
+%i-after {
+  content: url(../img/i.svg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 30px;
+  height: 30px;
+  background-color: var(--base-color);
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
