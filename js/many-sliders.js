@@ -16,7 +16,7 @@ const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_st
 const schoolsSection = document.querySelector('.schools-section');
 const schoolsSlider = document.querySelector('.schools-section_slider');
 const schoolsSliderPlate = document.querySelector('.schools-slider_plate ');
-const schoolsSliderStopSlide = document.querySelector('.schools-slider_plate_stop-slide');
+const schoolsSliderStopSlide = document.querySelector('.schools-slider_stop-slide');
 
 // const slider1StopSlide = document.querySelector('.slider1_stop-slide');
 
@@ -26,8 +26,9 @@ let widthContainer = getComputedStyle(container).width;
 if (parseInt(widthContainer) < 450) {
   aboutwarSliderStopSlide.style.width = widthContainer;
   inviSliderStopSlide.style.width = widthContainer;
+  aboutHopesSliderStopSlide.style.width = widthContainer;
   schoolsSliderStopSlide.style.width = widthContainer;
-  slider1StopSlide.style.width = widthContainer;
+
   // slider1StopSlide.style.width = widthContainer;
   /*   console.log('widthContainer', widthContainer); */
   /*   console.log('aboutwarSliderStopSlide.style.width', aboutwarSliderStopSlide.style.width); */

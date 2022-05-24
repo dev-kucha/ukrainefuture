@@ -1,13 +1,6 @@
-.schools-slider {
-  height: 586px; //temporary?
-}
-
 .schools-slider_plate {
   background-color: var(--main-black);
 }
-
-// .aboutwar_plate-content {
-// }
 
 .schools-slider_tiles {
   display: grid;
@@ -65,6 +58,21 @@
 //.schools-slider_stop-slide {
 // padding-left: 15px;
 //}
+
+.chools-slider_added-text {
+  width: 380px;
+  //   height: 452px;
+  font-size: 30px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  color: var(--naftogaz-blue);
+
+  margin: 0 52px;
+}
+
+.chools-slider_added-text-span {
+  color: var(--base-color);
+}
 
 .schools-slider_stop-text {
   color: var(--base-color);

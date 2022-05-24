@@ -1,4 +1,5 @@
 .new-slider {
+  height: 586px; //temporary?
   overflow: hidden;
   margin-left: -15px;
   margin-right: -15px;
@@ -20,13 +21,12 @@
   //   margin-left: -177vw;
 }
 
-.new-slider_plate-content {
-  //   background-color: rgb(135, 202, 222);
-}
+// .new-slider_plate-content {
+//   background-color: rgb(135, 202, 222);
+// }
 
 .new-slider_stop-slide {
   width: 480px;
-  //background-color: rgb(220, 235, 230);
   height: 100%;
   display: flex;
   flex-direction: column;
