@@ -455,23 +455,127 @@ a {
 }
 
 .schools-section {
-  position: relative;
   padding-top: 124px;
-  padding-bottom: 100px;
-  min-height: 332vh;
-  background-color: black;
   color: var(--naftogaz-blue);
+  min-height: 100vh;
+  background-color: var(--main-black);
 }
 
-.schools-section_container {
+.schools-section_flex-container {
   position: sticky;
-  top: 124px;
+  top: 120px;
+  height: calc(100vh - 124px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.schools-section_flex-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: var(--main-black);
+  margin: 0 -15px;
 }
 
 .schools-section_text {
-  font-size: 30px;
-  line-height: 1.22;
-  margin: 0 auto 30px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.schools-slider {
+  height: 586px;
+}
+
+.schools-slider_plate {
+  background-color: var(--main-black);
+}
+
+.schools-slider_tiles {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 0px;
+  height: 100%;
+}
+
+.schools-slider_tile {
+  position: relative;
+}
+
+.schools-tile1 {
+  grid-area: 1/1/3/2;
+}
+
+.schools-tile2 {
+  grid-area: 1/2/2/3;
+}
+
+.schools-tile3 {
+  grid-area: 1/3/2/5;
+}
+
+.schools-tile4 {
+  grid-area: 2/2/3/4;
+}
+
+.schools-tile5 {
+  grid-area: 2/4/3/5;
+}
+
+.schools-tile6 {
+  grid-area: 1/5/3/7;
+}
+
+.schools-slider_tile-img {
+  display: block;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.schools-slider_tile-img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.schools-slider_tile-text {
+  color: var(--base-color);
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+.schools-slider_stop-text {
+  color: var(--base-color);
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  width: 380px;
+  margin: 0 auto 50px;
+}
+
+.schools-slider_stop-text-link {
+  color: var(--naftogaz-blue);
 }
 
 .intro2-section {
@@ -560,108 +664,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.slider1_tiles {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.slider1_plate {
-  width: 2400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.tile1 {
-  grid-area: 1/1/3/2;
-}
-
-.tile2 {
-  grid-area: 1/2/2/3;
-}
-
-.tile3 {
-  grid-area: 1/3/2/5;
-}
-
-.tile4 {
-  grid-area: 2/2/3/4;
-}
-
-.tile5 {
-  grid-area: 2/4/3/5;
-}
-
-.tile6 {
-  grid-area: 1/5/3/7;
-}
-
-.slider1_added-text {
-  width: 380px;
-  height: 452px;
-  font-size: 30px;
-  line-height: 1.23;
-  letter-spacing: 0.05em;
-  color: var(--naftogaz-blue);
-  margin: 0 52px;
-}
-
-.slider1_added-text-span {
-  color: var(--base-color);
-}
-
-.slider1_stop-slide {
-  width: 480px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slider1_stop-text {
-  font-size: 40px;
-  line-height: 1.23;
-  letter-spacing: 0.05em;
-  color: var(--base-color);
-  margin-bottom: 50px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.slider1_stop-text-link {
-  color: var(--naftogaz-blue);
-}
-
-.tile_img {
-  display: block;
-  -webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-.tile_img:hover {
-  -webkit-filter: none;
-  filter: none;
 }
 
 .btn-donate {

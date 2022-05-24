@@ -1,0 +1,80 @@
+.schools-slider {
+  height: 586px; //temporary?
+}
+
+.schools-slider_plate {
+  background-color: var(--main-black);
+}
+
+// .aboutwar_plate-content {
+// }
+
+.schools-slider_tiles {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 0px;
+  height: 100%;
+}
+
+.schools-slider_tile {
+  position: relative;
+}
+
+.schools-tile1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+
+.schools-tile2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.schools-tile3 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+
+.schools-tile4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.schools-tile5 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.schools-tile6 {
+  grid-area: 1 / 5 / 3 / 7;
+}
+
+.schools-slider_tile-img {
+  display: block;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+  &:hover {
+    -webkit-filter: none;
+    filter: none;
+  }
+}
+
+.schools-slider_tile-text {
+  color: var(--base-color);
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+//.schools-slider_stop-slide {
+// padding-left: 15px;
+//}
+
+.schools-slider_stop-text {
+  color: var(--base-color);
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  width: 380px;
+  margin: 0 auto 50px;
+}
+
+.schools-slider_stop-text-link {
+  color: var(--naftogaz-blue);
+}

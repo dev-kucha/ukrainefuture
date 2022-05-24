@@ -1,27 +1,69 @@
 .schools-section {
-  position: relative;
   padding-top: 124px;
-  padding-bottom: 100px;
-  // outline: 1px maroon dotted;
-  min-height: 332vh;
-  background-color: black;
   color: var(--naftogaz-blue);
-  // padding-left: 20px;
-  // padding-right: 20px;
+  min-height: 100vh;
+  background-color: var(--main-black);
 }
 
-.schools-section_container {
+// .sticky-spacer {
+//   width: 20px;
+//   height: 2400px;
+//   background-color: rgb(13, 156, 25);
+//   margin-left: -50px;
+// }
+
+.schools-section_flex-container {
   position: -webkit-sticky;
   position: sticky;
-  top: 124px;
+  top: 120px;
+  height: calc(100vh - 124px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.schools-section_flex-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: var(--main-black);
+  margin: 0 -15px;
 }
 
 .schools-section_text {
-  // width: 380px;
-  font-size: 30px;
-  line-height: 1.22;
-  margin: 0 auto 30px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  padding: 0 30px;
 }
+
+// .schools-section {
+//   position: relative;
+//   padding-top: 124px;
+//   padding-bottom: 100px;
+//   // outline: 1px maroon dotted;
+//   min-height: 332vh;
+//   background-color: black;
+//   color: var(--naftogaz-blue);
+//   // padding-left: 20px;
+//   // padding-right: 20px;
+// }
+
+// .schools-section_container {
+//   position: -webkit-sticky;
+//   position: sticky;
+//   top: 124px;
+// }
+
+// .schools-section_text {
+//   // width: 380px;
+//   font-size: 30px;
+//   line-height: 1.22;
+//   margin: 0 auto 30px;
+// }
 
 //.schools-section_slider {
 // height: 486px;
