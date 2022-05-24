@@ -45,6 +45,12 @@
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .invi-tile3 {

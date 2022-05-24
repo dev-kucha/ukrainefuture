@@ -29,7 +29,7 @@
   margin-left: -50px;
 }
 
-.invi-tile1::after, .intro-section_work-2::after, .intro-section_work-1::after {
+.invi-tile2::after, .invi-tile1::after, .intro-section_work-2::after, .intro-section_work-1::after {
   content: url(../img/i.svg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -740,6 +740,10 @@ a {
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+}
+.invi-tile2::after {
+  bottom: 15px;
+  right: 15px;
 }
 
 .invi-tile3 {
