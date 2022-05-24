@@ -12,7 +12,7 @@ const artists = [
     id: 2,
     firstName: 'Olga',
     secondName: 'Oliynuk',
-    age: '',
+    age: '15',
     artName: 'My Ukraine is picturesque and hospitable',
   },
   {
@@ -63,7 +63,7 @@ const artists = [
     id: 9,
     firstName: 'Vira',
     secondName: 'Harchenko',
-    age: '',
+    age: '14',
     artName: 'Oh, my Ukraine!',
   },
   {
@@ -105,7 +105,7 @@ const artists = [
     id: 15,
     firstName: 'Orusya',
     secondName: 'Kyzmenko',
-    age: '',
+    age: '11',
     artName: 'War is a horror',
   },
   {
@@ -168,7 +168,7 @@ const artists = [
     id: 24,
     firstName: 'Viktoria',
     secondName: 'Radychak',
-    age: '',
+    age: '8',
     artName: 'Ukraine of the future',
   },
   {
@@ -196,7 +196,7 @@ const artists = [
     id: 28,
     firstName: 'Anastasia',
     secondName: 'Myronenko',
-    age: '',
+    age: '15',
     artName: 'Forward to a peaceful country',
   },
   {
@@ -291,7 +291,7 @@ function showNote(anchor, position, html) {
 function removeNotes() {
   document.addEventListener('scroll', function (e) {
     const notes = document.querySelectorAll('.note');
-    console.log(notes);
+    // console.log(notes);
     for (const note of notes) {
       note.remove();
     }

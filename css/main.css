@@ -29,7 +29,7 @@
   margin-left: -50px;
 }
 
-.intro-section_work-2::after, .intro-section_work-1::after {
+.invi-tile1::after, .intro-section_work-2::after, .intro-section_work-1::after {
   content: url(../img/i.svg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -720,11 +720,19 @@ a {
   gap: 0px;
 }
 
+.invi-slider_tile {
+  position: relative;
+}
+
 .invi-tile1 {
   grid-row-start: 1;
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 2;
+}
+.invi-tile1::after {
+  bottom: 15px;
+  left: 15px;
 }
 
 .invi-tile2 {
