@@ -58,6 +58,12 @@
   grid-column-start: 2;
   grid-row-end: 3;
   grid-column-end: 3;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .invi-tile4 {
@@ -65,6 +71,12 @@
   grid-column-start: 3;
   grid-row-end: 2;
   grid-column-end: 4;
+
+  &::after {
+    @extend %i-after;
+    top: 15px;
+    left: 15px;
+  }
 }
 
 .invi-tile5 {
@@ -72,6 +84,12 @@
   grid-column-start: 3;
   grid-row-end: 3;
   grid-column-end: 4;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .invi-tile6 {
@@ -79,6 +97,14 @@
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 5;
+
+  &::after {
+    @extend %i-after-inverse;
+    // background-color: var(--main-black);
+    // color: var(--base-color);
+    bottom: 15px;
+    right: 25px;
+  }
 }
 
 .invi-tile7 {
@@ -86,6 +112,12 @@
   grid-column-start: 5;
   grid-row-end: 3;
   grid-column-end: 6;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .invi-slider_tile-img {

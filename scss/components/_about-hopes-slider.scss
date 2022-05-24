@@ -16,11 +16,21 @@
   height: 100%;
 }
 
+.about-hopes-slider_tile {
+  position: relative;
+}
+
 .about-hopes-tile1 {
   grid-row-start: 1;
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 2;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    left: 15px;
+  }
 }
 
 .about-hopes-tile2 {
@@ -28,6 +38,12 @@
   grid-column-start: 2;
   grid-row-end: 2;
   grid-column-end: 3;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    left: 15px;
+  }
 }
 
 .about-hopes-tile3 {
@@ -35,6 +51,12 @@
   grid-column-start: 3;
   grid-row-end: 2;
   grid-column-end: 5;
+
+  &::after {
+    @extend %i-after;
+    top: 15px;
+    left: 15px;
+  }
 }
 
 .about-hopes-tile4 {
@@ -42,6 +64,12 @@
   grid-column-start: 5;
   grid-row-end: 2;
   grid-column-end: 6;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .about-hopes-tile5 {
@@ -53,6 +81,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  &::after {
+    @extend %i-after-inverse;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .about-hopes-tile6 {
@@ -60,6 +94,12 @@
   grid-column-start: 7;
   grid-row-end: 3;
   grid-column-end: 8;
+
+  &::after {
+    @extend %i-after;
+    top: 15px;
+    right: 15px;
+  }
 }
 
 .about-hopes-tile7 {
@@ -67,6 +107,12 @@
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    left: 15px;
+  }
 }
 
 .about-hopes-tile8 {
@@ -78,6 +124,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+
+  &::after {
+    @extend %i-after-inverse;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .about-hopes-tile9 {
@@ -85,6 +138,12 @@
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 6;
+
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 .about-hopes-slider_tile-img {
@@ -109,7 +168,7 @@
 }
 
 .about-hopes-slider_tile-text2 {
-  max-width: 450px;
+  width: 100%;
 }
 
 .about-hopes-slider_tile-text-pre {

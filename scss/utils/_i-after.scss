@@ -1,11 +1,38 @@
 %i-after {
-  content: url(../img/i.svg);
+  // content: url(../img/i.svg);
+  content: 'i';
+  font-family: 'Volkhov', serif;
+  font-size: 24px;
+  // line-height: 1.23;
+  letter-spacing: 0.05em;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 30px;
   height: 30px;
   background-color: var(--base-color);
+  color: var(--main-black);
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+%i-after-inverse {
+  content: 'i';
+  font-family: 'Volkhov', serif;
+  font-size: 24px;
+  // line-height: 1.23;
+  // content: url(../img/i-inverse.svg);
+  letter-spacing: 0.05em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--main-black);
+  color: var(--base-color);
   position: absolute;
   border-radius: 50%;
   cursor: pointer;

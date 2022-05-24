@@ -37,6 +37,15 @@
   line-height: 1.23;
 }
 
+.requisites-section_work-1 {
+  position: relative;
+  &::after {
+    @extend %i-after;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
 .requisites-section_work-1-img {
   width: 100%;
   display: block;

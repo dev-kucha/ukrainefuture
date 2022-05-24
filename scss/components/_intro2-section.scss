@@ -47,11 +47,11 @@
   z-index: 3;
   margin: 0 -15px;
 
-  // &::after {
-  //   @extend %i-after;
-  //   bottom: 6px;
-  //   left: 15px;
-  // }
+  &::after {
+    @extend %i-after;
+    bottom: 6px;
+    left: 15px;
+  }
 }
 
 .intro2-section_work-4-img {
