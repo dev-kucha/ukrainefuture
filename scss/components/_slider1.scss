@@ -7,10 +7,14 @@
 }
 
 .slider1_plate {
-  width: 2388px;
+  width: 2400px;
   // display: flex;
   // justify-content: start;
   // align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 //.tile {
@@ -55,8 +59,13 @@
 }
 
 .slider1_stop-slide {
-  width: 380px;
-  margin: 0 52px;
+  width: 480px;
+  // margin: 0 52px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider1_stop-text {
@@ -69,6 +78,8 @@
   letter-spacing: 0.05em;
   color: var(--base-color);
   margin-bottom: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .slider1_stop-text-link {

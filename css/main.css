@@ -571,7 +571,16 @@ a {
 }
 
 .slider1_plate {
-  width: 2388px;
+  width: 2400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tile1 {
@@ -613,8 +622,21 @@ a {
 }
 
 .slider1_stop-slide {
-  width: 380px;
-  margin: 0 52px;
+  width: 480px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slider1_stop-text {
@@ -623,6 +645,8 @@ a {
   letter-spacing: 0.05em;
   color: var(--base-color);
   margin-bottom: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .slider1_stop-text-link {

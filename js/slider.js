@@ -10,10 +10,10 @@ const startOffsetTop = schoolsSection.offsetTop;
 
 window.addEventListener('scroll', function () {
   if (
-    window.pageYOffset > startOffsetTop &&
-    slider.offsetWidth - (startOffsetTop - window.pageYOffset) <= sliderPlate.offsetWidth
+    window.pageYOffset > schoolsSection.offsetTop &&
+    slider.offsetWidth - (schoolsSection.offsetTop - window.pageYOffset) <= sliderPlate.offsetWidth
   ) {
-    sliderPlate.style.left = startOffsetTop - window.pageYOffset + 'px';
+    sliderPlate.style.left = schoolsSection.offsetTop - window.pageYOffset + 'px';
     // console.log('slider.offsetWidth', slider.offsetWidth);
     // console.log('sliderPlate.offsetWidth', sliderPlate.offsetWidth);
     // console.log('sliderPlate.style.left', sliderPlate.style.left);

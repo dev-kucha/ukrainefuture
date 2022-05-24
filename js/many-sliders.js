@@ -12,6 +12,8 @@ const aboutHopesSection = document.querySelector('.about-hopes-section');
 const aboutHopesSlider = document.querySelector('.about-hopes-section_slider');
 const aboutHopesSliderPlate = document.querySelector('.about-hopes-slider_plate ');
 const aboutHopesSliderStopSlide = document.querySelector('.about-hopes-slider_stop-slide');
+const slider1StopSlide = document.querySelector('.slider1_stop-slide');
+// slider1_stop-slide
 
 /* змінюємо ширину стоп-слайда */
 const container = document.querySelector('.container');
@@ -20,6 +22,7 @@ if (parseInt(widthContainer) < 450) {
   aboutwarSliderStopSlide.style.width = widthContainer;
   inviSliderStopSlide.style.width = widthContainer;
   aboutHopesSliderStopSlide.style.width = widthContainer;
+  slider1StopSlide.style.width = widthContainer;
   /*   console.log('widthContainer', widthContainer); */
   /*   console.log('aboutwarSliderStopSlide.style.width', aboutwarSliderStopSlide.style.width); */
 }
