@@ -1,0 +1,21 @@
+.langchanger {
+  //   outline: 1px yellowgreen dotted;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.langchanger__text {
+  margin-left: 20px;
+  height: 100%;
+}
+
+.langchanger__link {
+  display: block;
+  height: 100%;
+
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.23;
+  letter-spacing: 0.05em;
+}

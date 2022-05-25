@@ -2,9 +2,10 @@
   color: var(--base-color);
   font-size: 36px;
   line-height: 1.23;
+  margin-bottom: 60px;
 }
 
-.site-nav__item {
+.site-nav__item:not(:last-child) {
   margin-bottom: 30px;
 }
 
