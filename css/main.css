@@ -6,7 +6,7 @@
   --transfotmation-time: 250ms;
   --tranformation-function: cubic-bezier(0.4, 0, 0.2, 1);
   --mainfont: "Montserrat Alternates", sans-serif;
-  --adfont: "Volkhov", serif;
+  --adfont: "Vollkorn", serif;
 }
 
 .visually-hidden {
@@ -31,7 +31,7 @@
 
 .requisites-section_work-1::after, .about-hopes-tile9::after, .about-hopes-tile7::after, .about-hopes-tile6::after, .about-hopes-tile4::after, .about-hopes-tile3::after, .about-hopes-tile2::after, .about-hopes-tile1::after, .aboutwar-tile9::after, .aboutwar-tile8::after, .aboutwar-tile7::after, .aboutwar-tile6::after, .aboutwar-tile5::after, .aboutwar-tile4::after, .aboutwar-tile3::after, .aboutwar-tile2::after, .aboutwar-tile1::after, .invi-tile7::after, .invi-tile5::after, .invi-tile4::after, .invi-tile3::after, .invi-tile2::after, .invi-tile1::after, .intro2-section_work-4::after, .intro-section_work-2::after, .intro-section_work-1::after {
   content: "i";
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 24px;
   letter-spacing: 0.05em;
   display: -webkit-box;
@@ -58,7 +58,7 @@
 
 .about-hopes-tile8::after, .about-hopes-tile5::after, .invi-tile6::after {
   content: "i";
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 24px;
   letter-spacing: 0.05em;
   display: -webkit-box;
@@ -92,7 +92,7 @@
   background-color: var(--base-color);
   text-align: center;
   opacity: 0.9;
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 12px;
   line-height: 1.23;
   letter-spacing: 0.05em;
@@ -939,7 +939,7 @@ a {
 }
 
 .invi-slider_tile-text-pre {
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
@@ -1134,7 +1134,7 @@ a {
 }
 
 .aboutwar-slider_tile-text-pre {
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
@@ -1348,7 +1348,7 @@ a {
   color: var(--main-black);
   padding-left: 25px;
   padding-right: 25px;
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
@@ -1363,7 +1363,7 @@ a {
 }
 
 .about-hopes-slider_tile-text-pre {
-  font-family: "Volkhov", serif;
+  font-family: var(--adfont);
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
