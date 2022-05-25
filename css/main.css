@@ -400,16 +400,26 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 66px;
-  background-image: url(../img/main-title-mob-eng.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+.main-title--eng {
+  background-image: url(../img/main-title-mob-eng.svg);
+}
+.main-title--ukr {
+  background-image: url(../img/main-title-mob-ukr.svg);
+}
 @media screen and (min-width: 768px) {
   .main-title {
     max-width: 566px;
-    background-image: url(../img/main-title-tablet-eng.svg);
     margin-bottom: 68px;
+  }
+  .main-title--eng {
+    background-image: url(../img/main-title-tablet-eng.svg);
+  }
+  .main-title--ukr {
+    background-image: url(../img/main-title-tablet-ukr.svg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -564,9 +574,11 @@ a {
   font-weight: 800;
   font-size: 40px;
   line-height: 1.23;
-  letter-spacing: 0.05em;
   margin-bottom: 30px;
   padding: 0 30px;
+}
+.schools-section_text--ls {
+  letter-spacing: -0.01em;
 }
 
 .schools-slider_plate {
