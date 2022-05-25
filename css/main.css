@@ -285,10 +285,15 @@ a {
   left: 16px;
   width: 30px;
   height: 30px;
-  background-image: url(../img/flag-ua.svg);
   background-position: center;
   border: 2px #d9d9d9 solid;
   border-radius: 50%;
+}
+.tumbler__ball--to-eng {
+  background-image: url(../img/flag-gb.svg);
+}
+.tumbler__ball--to-ukr {
+  background-image: url(../img/flag-ua.svg);
 }
 
 .top-menu-button {
