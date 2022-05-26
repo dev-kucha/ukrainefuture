@@ -1496,19 +1496,39 @@ a {
   line-height: 1.23;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .requisites-section_title {
+    margin-bottom: 14px;
+  }
+}
 
 .requisites-section_subtitle {
   font-size: 36px;
   line-height: 1.23;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .requisites-section_subtitle {
+    margin-bottom: 66px;
+  }
+}
 
 .requisites-items {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .requisites-items {
+    margin-bottom: 42px;
+  }
+}
 
 .requisites-item {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .requisites-item {
+    margin-bottom: 42px;
+  }
 }
 
 .requisites-item-key {
@@ -1516,10 +1536,20 @@ a {
   line-height: 1.23;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .requisites-item-key {
+    font-size: 32px;
+  }
+}
 
 .requisites-item-value {
   font-size: 16px;
   line-height: 1.23;
+}
+@media screen and (min-width: 768px) {
+  .requisites-item-value {
+    font-size: 20px;
+  }
 }
 
 .requisites-section_work-1 {
@@ -1528,6 +1558,12 @@ a {
 .requisites-section_work-1::after {
   bottom: 15px;
   right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .requisites-section_work-1 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 }
 
 .requisites-section_work-1-img {
