@@ -351,6 +351,11 @@ a {
     width: 480px;
   }
 }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
 
 .main-section {
   padding-top: 44vh;
@@ -412,7 +417,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .main-title {
-    max-width: 566px;
+    max-width: 428px;
     margin-bottom: 68px;
   }
   .main-title--eng {
@@ -437,7 +442,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .main-orglogos {
-    max-width: 566px;
+    max-width: 428px;
   }
 }
 
@@ -458,7 +463,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .main-orglogos_logo-img {
-    height: 36px;
+    height: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
