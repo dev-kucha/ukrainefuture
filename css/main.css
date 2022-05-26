@@ -1554,23 +1554,91 @@ a {
   line-height: 1.23;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .social {
+    margin-bottom: 24px;
+  }
+}
+
+.social-list {
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .social-list {
+    max-width: 556px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 128px;
+  }
+}
 
 .social_item {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .social_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 54px;
+  }
+  .social_item:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.br {
+  font-size: 0px;
+  letter-spacing: -0.5;
 }
 
 .social_icon {
   margin-bottom: 15px;
 }
+@media screen and (min-width: 768px) {
+  .social_icon {
+    margin-bottom: 0;
+    width: 64px;
+    margin-right: 32px;
+  }
+}
+
+.social_icon-img {
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .social_icon-img {
+    height: 48px;
+  }
+}
 
 .insta {
   margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .insta {
+    margin-bottom: 80px;
+  }
 }
 
 .insta_text {
   font-size: 20px;
   line-height: 1.23;
   margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .insta_text {
+    font-size: 16px;
+  }
 }
 
 .insta_link {
