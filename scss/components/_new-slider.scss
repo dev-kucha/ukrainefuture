@@ -3,6 +3,11 @@
   overflow: hidden;
   margin-left: -15px;
   margin-right: -15px;
+
+  @media screen and (min-width: $tablet) {
+    height: 520px;
+    outline: 1px tomato dotted;
+  }
 }
 
 .new-slider_plate {

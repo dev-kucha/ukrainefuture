@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  outline: 1px rgb(57, 71, 32) dotted;
 }
 
 .about-hopes-section_flex-container2 {
@@ -24,6 +25,11 @@
   flex-grow: 1;
   background-color: var(--naftogaz-blue);
   margin: 0 -15px;
+  outline: 1px rgb(71, 32, 58) dotted;
+
+  @media screen and (min-width: $tablet) {
+    background-color: var(--base-color);
+  }
 }
 
 .about-hopes-section_text {
@@ -32,7 +38,15 @@
   line-height: 1.23;
   letter-spacing: 0.05em;
   margin-bottom: 30px;
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: 1px rgb(74, 45, 75) dotted;
+
+  @media screen and (min-width: $tablet) {
+    color: var(--naftogaz-blue);
+    font-size: 48px;
+    padding-left: 142px;
+  }
 }
 
 // .about-hopes-section_slider {
