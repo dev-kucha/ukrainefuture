@@ -11,12 +11,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;800&family=Volkhov:ital@1&display=swap"
-      rel="stylesheet"
-    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,24 +53,38 @@
               </div>
             </div>
           </div>
-
-          <button
-            type="button"
-            class="top-menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-          >
-            <svg
-              class="top-menu-icon"
-              width="40"
-              height="40"
-              aria-label="Перемикач мобільного меню"
+          <div class="top-menu-controls">
+            <div class="langswitch">
+              <ul class="langswitch-items list">
+                <li class="langswitch-item">
+                  <a class="langswitch-link langswitch-link--current" href="index.html">eng</a>
+                </li>
+                <li class="langswitch-item">
+                  <a class="langswitch-link" href="index-ukr.html">укр</a>
+                </li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="top-menu-button"
+              aria-expanded="false"
+              aria-controls="menu-container"
+              data-menu-button
             >
-              <use class="top-menu-use top-menu-use__cross" href="./img/menu-icons.svg#cross"></use>
-              <use class="top-menu-use top-menu-use__menu" href="./img/menu-icons.svg#menu"></use>
-            </svg>
-          </button>
+              <svg
+                class="top-menu-icon"
+                width="40"
+                height="40"
+                aria-label="Перемикач мобільного меню"
+              >
+                <use
+                  class="top-menu-use top-menu-use__cross"
+                  href="./img/menu-icons.svg#cross"
+                ></use>
+                <use class="top-menu-use top-menu-use__menu" href="./img/menu-icons.svg#menu"></use>
+              </svg>
+            </button>
+          </div>
         </nav>
       </div>
     </header>

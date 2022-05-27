@@ -208,6 +208,18 @@ a {
           align-items: center;
 }
 
+.top-menu-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .menu-container {
   width: 100%;
   padding-top: 90px;
@@ -294,6 +306,51 @@ a {
 }
 .tumbler__ball--to-ukr {
   background-image: url(../img/flag-ua.svg);
+}
+
+.langswitch {
+  height: 100%;
+}
+@media screen and (max-width: 350px) {
+  .langswitch {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    margin: -1px;
+  }
+}
+
+.langswitch-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.langswitch-item {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.langswitch-link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.langswitch-link--current {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 
 .top-menu-button {
@@ -1189,7 +1246,6 @@ a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-color: var(--naftogaz-blue);
   margin: 0 -15px;
 }
 
@@ -1200,6 +1256,7 @@ a {
   letter-spacing: 0.05em;
   margin-bottom: 30px;
   padding: 0 30px;
+  color: var(--naftogaz-blue);
 }
 
 .about-hopes-slider_plate {
