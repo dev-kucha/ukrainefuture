@@ -22,7 +22,7 @@
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
-  background-color: var(--naftogaz-blue);
+  // background-color: var(--naftogaz-blue);
   margin: 0 -15px;
   // outline: 1px rgb(71, 32, 58) dotted;
 
@@ -39,10 +39,10 @@
   margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  color: var(--naftogaz-blue);
   // outline: 1px rgb(74, 45, 75) dotted;
 
   @media screen and (min-width: $tablet) {
-    color: var(--naftogaz-blue);
     font-size: 48px;
 
     padding-left: 142px; //?

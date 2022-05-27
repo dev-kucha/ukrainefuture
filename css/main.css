@@ -1285,7 +1285,6 @@ a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-color: var(--naftogaz-blue);
   margin: 0 -15px;
 }
 @media screen and (min-width: 768px) {
@@ -1302,10 +1301,10 @@ a {
   margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  color: var(--naftogaz-blue);
 }
 @media screen and (min-width: 768px) {
   .about-hopes-section_text {
-    color: var(--naftogaz-blue);
     font-size: 48px;
     padding-left: 142px;
     width: 732px;
