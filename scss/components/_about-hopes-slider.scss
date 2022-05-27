@@ -37,10 +37,6 @@
     width: 572px;
   }
 
-  @media screen and (min-width: $desktop) {
-    width: 445px;
-  }
-
   &::after {
     @extend %i-after;
     bottom: 15px;
@@ -63,10 +59,6 @@
     grid-column-end: 5;
 
     width: 286px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    width: 245px;
   }
 
   &::after {
@@ -93,10 +85,6 @@
     width: 286px;
   }
 
-  @media screen and (min-width: $desktop) {
-    width: 245px;
-  }
-
   &::after {
     @extend %i-after;
     top: 15px;
@@ -119,10 +107,6 @@
     grid-column-end: 6;
 
     width: 312px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    width: 268px;
   }
 
   &::after {
@@ -175,10 +159,6 @@
     width: 304px;
   }
 
-  @media screen and (min-width: $desktop) {
-    width: 260px;
-  }
-
   &::after {
     @extend %i-after;
     top: 15px;
@@ -201,10 +181,6 @@
     grid-column-end: 2;
 
     width: 572px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    width: 474px;
   }
 
   &::after {
@@ -257,10 +233,6 @@
     grid-column-end: 7;
 
     width: 572px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    width: 490px;
   }
 
   &::after {

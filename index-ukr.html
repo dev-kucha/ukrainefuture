@@ -52,23 +52,39 @@
             </div>
           </div>
 
-          <button
-            type="button"
-            class="top-menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-          >
-            <svg
-              class="top-menu-icon"
-              width="40"
-              height="40"
-              aria-label="Перемикач мобільного меню"
+          <div class="top-menu-controls">
+            <div class="langswitch">
+              <ul class="langswitch-items list">
+                <li class="langswitch-item">
+                  <a class="langswitch-link" href="index.html">eng</a>
+                </li>
+                <li class="langswitch-item">
+                  <a class="langswitch-link langswitch-link--current" href="index-ukr.html">укр</a>
+                </li>
+              </ul>
+            </div>
+
+            <button
+              type="button"
+              class="top-menu-button"
+              aria-expanded="false"
+              aria-controls="menu-container"
+              data-menu-button
             >
-              <use class="top-menu-use top-menu-use__cross" href="./img/menu-icons.svg#cross"></use>
-              <use class="top-menu-use top-menu-use__menu" href="./img/menu-icons.svg#menu"></use>
-            </svg>
-          </button>
+              <svg
+                class="top-menu-icon"
+                width="40"
+                height="40"
+                aria-label="Перемикач мобільного меню"
+              >
+                <use
+                  class="top-menu-use top-menu-use__cross"
+                  href="./img/menu-icons.svg#cross"
+                ></use>
+                <use class="top-menu-use top-menu-use__menu" href="./img/menu-icons.svg#menu"></use>
+              </svg>
+            </button>
+          </div>
         </nav>
       </div>
     </header>
@@ -388,10 +404,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile1-320.png 320w,
-                            ./img/about-hopes-tile1-572.png 572w,
-                            ./img/about-hopes-tile1-445.png 445w
+                            ./img/about-hopes-tile1-572.png 572w
                           "
-                          sizes="(min-width: 1200px) 445px, (min-width: 768px) 572px, (min-width: 320px) 320px"
+                          sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile1-320.png"
                           alt="Мирна весняна столиця"
                         />
@@ -404,10 +419,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile2-320.png 320w,
-                            ./img/about-hopes-tile2-286.png 286w,
-                            ./img/about-hopes-tile2-245.png 245w
+                            ./img/about-hopes-tile2-286.png 286w
                           "
-                          sizes="(min-width: 1200px) 245px, (min-width: 768px) 286px, (min-width: 320px) 320px"
+                          sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile2-320.png"
                           alt="Погляд в майбутнє"
                         />
@@ -420,10 +434,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile3-320.png 320w,
-                            ./img/about-hopes-tile3-286.png 286w,
-                            ./img/about-hopes-tile3-245.png 245w
+                            ./img/about-hopes-tile3-286.png 286w
                           "
-                          sizes="(min-width: 1200px) 245px, (min-width: 768px) 286px, (min-width: 320px) 320px"
+                          sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile3-320.png"
                           alt="Щасливі тварини у вільній країні"
                         />
@@ -436,10 +449,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile4-175.png 175w,
-                            ./img/about-hopes-tile4-312.png 312w,
-                            ./img/about-hopes-tile4-268.png 268w
+                            ./img/about-hopes-tile4-312.png 312w
                           "
-                          sizes="(min-width: 1200px) 268px, (min-width: 768px) 312px, (min-width: 320px) 175px"
+                          sizes="(min-width: 768px) 312px, (min-width: 320px) 175px"
                           src="./img/about-hopes-tile4-175.png"
                           alt="Квітуча Україна"
                         />
@@ -464,10 +476,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile6-340.png 340w,
-                            ./img/about-hopes-tile6-304.png 304w,
-                            ./img/about-hopes-tile6-260.png 260w
+                            ./img/about-hopes-tile6-304.png 304w
                           "
-                          sizes="(min-width: 1200px) 260px, (min-width: 768px) 304px, (min-width: 340px) 340px"
+                          sizes="(min-width: 768px) 304px, (min-width: 340px) 340px"
                           src="./img/about-hopes-tile6-340.png"
                           alt="Вперед в мирну Україну"
                         />
@@ -480,10 +491,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile7-320.png 320w,
-                            ./img/about-hopes-tile7-572.png 572w,
-                            ./img/about-hopes-tile7-474.png 474w
+                            ./img/about-hopes-tile7-572.png 572w
                           "
-                          sizes="(min-width: 1200px) 474px, (min-width: 768px) 572px, (min-width: 320px) 320px"
+                          sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile7-320.png"
                           alt="Харків майбутнього"
                         />
@@ -514,10 +524,9 @@
                           class="about-hopes-slider_tile-img"
                           srcset="
                             ./img/about-hopes-tile9-320.png 320w,
-                            ./img/about-hopes-tile9-572.png 572w,
-                            ./img/about-hopes-tile7-490.png 490w
+                            ./img/about-hopes-tile9-572.png 572w
                           "
-                          sizes="(min-width: 1200px) 490px, (min-width: 768px) 572px, (min-width: 320px) 320px"
+                          sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile9-320.png"
                           alt="ВІдбудована українська вулиця"
                         />

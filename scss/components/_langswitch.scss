@@ -1,0 +1,41 @@
+.langswitch {
+  height: 100%;
+
+  @media screen and (max-width: 350px) {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+}
+
+.langswitch-items {
+  display: flex;
+  justify-content: flex-end;
+  //   align-items: stretch;
+}
+
+.langswitch-item {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.langswitch-link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  &--current {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+}
