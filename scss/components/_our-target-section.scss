@@ -4,6 +4,11 @@
   //   text-align: center;
   padding-top: 92px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
 }
 
 .our-target-section_container {
@@ -13,17 +18,49 @@
   font-size: 40px;
   line-height: 1.23;
   margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+    width: 568px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
 }
 
+// https://flaviocopes.com/responsive-youtube-videos/
+
 .youtube-media {
-  //   overflow: hidden;
-  //   margin: 0 -15px;
+  overflow: hidden; //
+  position: relative; //
+  width: 100%; //
+
   margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+    width: 568px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 80px;
+  }
+}
+
+.youtube-media::after {
+  //
+  padding-top: 56.25%; //
+  display: block; //
+  content: ''; //
 }
 
 .youtube-player {
-  width: 100%;
-  height: 270px;
+  // width: 100%;
+  position: absolute; //
+  top: 0; //
+  left: 0; //
+  width: 100%; //
+  height: 100%; //
+
+  // height: 270px;
 }
 
 .progres-bar {
@@ -34,6 +71,10 @@
   font-size: 24px;
   line-height: 1.23;
   margin-bottom: 15px;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 30px;
+  }
 }
 
 .progres-bar_loader-line {

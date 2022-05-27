@@ -99,7 +99,7 @@ export default [
     artName: 'My Krasnograd region after the war',
     firstNameUkr: 'Софія',
     secondNameUkr: 'Зайкова',
-    artNameUkr: 'Моя красноградщина після війни',
+    artNameUkr: 'Моя Красноградщина після війни',
   },
   {
     id: 11,
@@ -129,7 +129,7 @@ export default [
     artName: 'The enemy will not pass',
     firstNameUkr: 'Олексій',
     secondNameUkr: 'Масанов',
-    artNameUkr: 'Врог не пройде',
+    artNameUkr: 'Ворог не пройде',
   },
   {
     id: 14,
@@ -189,7 +189,7 @@ export default [
     artName: 'When darkness comes, he will always arrive',
     firstNameUkr: 'Анастасія',
     secondNameUkr: 'Пугач',
-    artNameUkr: 'Коли прийде пітьма завжди прилетить він',
+    artNameUkr: 'Коли прийде пітьма, завжди прилетить він',
   },
   {
     id: 20,
