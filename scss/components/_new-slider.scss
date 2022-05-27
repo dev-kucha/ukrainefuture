@@ -6,7 +6,7 @@
 
   @media screen and (min-width: $tablet) {
     height: 520px;
-    outline: 1px tomato dotted;
+    // outline: 1px tomato dotted;
   }
 }
 
@@ -24,6 +24,10 @@
   //   margin-left: -50vw;
   //   margin-left: -1920px;
   //   margin-left: -177vw;
+
+  @media screen and (min-width: $tablet) {
+    width: 3840px; // temp?
+  }
 }
 
 // .new-slider_plate-content {

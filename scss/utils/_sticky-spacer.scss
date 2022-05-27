@@ -3,4 +3,8 @@
   height: 2400px;
   //   background-color: rgb(3, 8, 26);
   margin-left: -50px;
+
+  @media screen and (min-width: $tablet) {
+    height: 3840px; // temp?
+  }
 }

@@ -28,6 +28,11 @@
   height: 2400px;
   margin-left: -50px;
 }
+@media screen and (min-width: 768px) {
+  .sticky-spacer {
+    height: 3840px;
+  }
+}
 
 .requisites-section_work-1::after, .about-hopes-tile9::after, .about-hopes-tile7::after, .about-hopes-tile6::after, .about-hopes-tile4::after, .about-hopes-tile3::after, .about-hopes-tile2::after, .about-hopes-tile1::after, .aboutwar-tile9::after, .aboutwar-tile8::after, .aboutwar-tile7::after, .aboutwar-tile6::after, .aboutwar-tile5::after, .aboutwar-tile4::after, .aboutwar-tile3::after, .aboutwar-tile2::after, .aboutwar-tile1::after, .invi-tile7::after, .invi-tile5::after, .invi-tile4::after, .invi-tile3::after, .invi-tile2::after, .invi-tile1::after, .intro2-section_work-4::after, .intro-section_work-2::after, .intro-section_work-1::after {
   content: "i";
@@ -368,6 +373,11 @@ a {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 
@@ -823,7 +833,6 @@ a {
 @media screen and (min-width: 768px) {
   .new-slider {
     height: 520px;
-    outline: 1px tomato dotted;
   }
 }
 
@@ -841,6 +850,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .new-slider_plate {
+    width: 3840px;
+  }
 }
 
 .new-slider_stop-slide {
@@ -1198,7 +1212,6 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  outline: 1px rgb(57, 71, 32) dotted;
 }
 
 .about-hopes-section_flex-container2 {
@@ -1217,7 +1230,6 @@ a {
           flex-grow: 1;
   background-color: var(--naftogaz-blue);
   margin: 0 -15px;
-  outline: 1px rgb(71, 32, 58) dotted;
 }
 @media screen and (min-width: 768px) {
   .about-hopes-section_flex-container2 {
@@ -1233,13 +1245,13 @@ a {
   margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  outline: 1px rgb(74, 45, 75) dotted;
 }
 @media screen and (min-width: 768px) {
   .about-hopes-section_text {
     color: var(--naftogaz-blue);
     font-size: 48px;
     padding-left: 142px;
+    width: 732px;
   }
 }
 
@@ -1254,6 +1266,11 @@ a {
   gap: 0px;
   height: 100%;
 }
+@media screen and (min-width: 768px) {
+  .about-hopes-slider_tiles {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+}
 
 .about-hopes-slider_tile {
   position: relative;
@@ -1264,6 +1281,21 @@ a {
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 2;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    width: 572px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile1 {
+    width: 445px;
+  }
 }
 .about-hopes-tile1::after {
   bottom: 15px;
@@ -1275,6 +1307,21 @@ a {
   grid-column-start: 2;
   grid-row-end: 2;
   grid-column-end: 3;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile2 {
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    width: 286px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile2 {
+    width: 245px;
+  }
 }
 .about-hopes-tile2::after {
   bottom: 15px;
@@ -1286,6 +1333,21 @@ a {
   grid-column-start: 3;
   grid-row-end: 2;
   grid-column-end: 5;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile3 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 2;
+    grid-column-end: 5;
+    width: 286px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile3 {
+    width: 245px;
+  }
 }
 .about-hopes-tile3::after {
   top: 15px;
@@ -1297,6 +1359,21 @@ a {
   grid-column-start: 5;
   grid-row-end: 2;
   grid-column-end: 6;
+  width: 175px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile4 {
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 6;
+    width: 312px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile4 {
+    width: 268px;
+  }
 }
 .about-hopes-tile4::after {
   bottom: 15px;
@@ -1320,6 +1397,15 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .about-hopes-tile5 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: 3;
+    grid-column-end: 8;
+    width: 290px;
+  }
+}
 .about-hopes-tile5::after {
   bottom: 15px;
   right: 15px;
@@ -1330,6 +1416,21 @@ a {
   grid-column-start: 7;
   grid-row-end: 3;
   grid-column-end: 8;
+  width: 340px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile6 {
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-row-end: 3;
+    grid-column-end: 9;
+    width: 304px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile6 {
+    width: 260px;
+  }
 }
 .about-hopes-tile6::after {
   top: 15px;
@@ -1341,6 +1442,21 @@ a {
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile7 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    width: 572px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile7 {
+    width: 474px;
+  }
 }
 .about-hopes-tile7::after {
   bottom: 15px;
@@ -1365,6 +1481,14 @@ a {
           justify-content: center;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .about-hopes-tile8 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+  }
+}
 .about-hopes-tile8::after {
   bottom: 15px;
   right: 15px;
@@ -1375,6 +1499,21 @@ a {
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 6;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-tile9 {
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 3;
+    grid-column-end: 7;
+    width: 572px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-tile9 {
+    width: 490px;
+  }
 }
 .about-hopes-tile9::after {
   bottom: 15px;
@@ -1394,6 +1533,12 @@ a {
   line-height: 1.23;
   letter-spacing: 0.05em;
 }
+@media screen and (min-width: 768px) {
+  .about-hopes-slider_tile-text {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+}
 
 .about-hopes-slider_tile-text1 {
   max-width: 280px;
@@ -1408,6 +1553,12 @@ a {
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-slider_tile-text-pre {
+    font-size: 20px;
+    line-height: 1.1;
+  }
 }
 
 .about-hopes-slider_stop-text {
