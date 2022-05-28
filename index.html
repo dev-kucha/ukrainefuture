@@ -90,7 +90,7 @@
       </div>
     </header>
     <main>
-      <section class="main-section">
+      <section class="main-section visually-hidden">
         <div class="container">
           <h1 class="visually-hidden">UkraineFuture</h1>
           <div class="main-title main-title--eng"></div>
@@ -117,7 +117,7 @@
           </div>
         </div>
       </section>
-      <section id="intro" class="intro-section">
+      <section id="intro" class="intro-section visually-hidden">
         <div class="container intro-section_container">
           <div class="intro-section_large-text">More than 350</div>
           <div class="intro-section_small-text-container">
@@ -134,7 +134,7 @@
         </div>
       </section>
 
-      <section class="schools-section">
+      <section class="schools-section visually-hidden">
         <div class="container schools-section_container">
           <div class="schools-section_sticky-container">
             <div class="schools-section_flex-container">
@@ -188,7 +188,7 @@
           </div>
         </div>
       </section>
-      <section class="intro2-section">
+      <section class="intro2-section visually-hidden">
         <div class="container intro2-section_container">
           <div class="intro2-section_sticky-container">
             <div class="intro2-section_work-1">
@@ -203,7 +203,7 @@
           </div>
         </div>
       </section>
-      <section class="invi-section">
+      <section class="invi-section visually-hidden">
         <div class="container invi-section_container">
           <div class="invi-section_sticky-container">
             <div class="invi-section_flex-container">
@@ -293,22 +293,37 @@
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile1" data-artistid="11">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile1.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile1-340.png 340w,
+                            ./img/aboutwar-tile1-608.png 608w
+                          "
+                          sizes="(min-width: 768px) 608px, (min-width: 320px) 340px"
+                          src="./img/aboutwar-tile1-340.png"
+                          alt="I believe in the Armed Forces"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile2" data-artistid="12">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile2.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile2-235.png 235w,
+                            ./img/aboutwar-tile2-210.png 210w
+                          "
+                          sizes="(min-width: 768px) 210px, (min-width: 320px) 235px"
+                          src="./img/aboutwar-tile2-235.png"
+                          alt="We will endure"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile3" data-artistid="13">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile3.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile3-315.png 315w,
+                            ./img/aboutwar-tile3-562.png 562w
+                          "
+                          sizes="(min-width: 768px) 562px, (min-width: 320px) 315px"
+                          src="./img/aboutwar-tile3-315.png"
+                          alt="The enemy will not pass"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile4" data-artistid="15">
@@ -331,36 +346,61 @@
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile5" data-artistid="16">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile5.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile5-235.png 235w,
+                            ./img/aboutwar-tile5-420.png 420w
+                          "
+                          sizes="(min-width: 768px) 420px, (min-width: 320px) 235px"
+                          src="./img/aboutwar-tile5-235.png"
+                          alt="Heroes of today"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile6" data-artistid="18">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile6.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile6-375.png 375w,
+                            ./img/aboutwar-tile6-335.png 335w
+                          "
+                          sizes="(min-width: 768px) 335px, (min-width: 320px) 375px"
+                          src="./img/aboutwar-tile6-375.png"
+                          alt="Ukraine in my eyes"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile7" data-artistid="14">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile7.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile7-315.png 315w,
+                            ./img/aboutwar-tile7-563.png 563w
+                          "
+                          sizes="(min-width: 768px) 563px, (min-width: 320px) 315px"
+                          src="./img/aboutwar-tile7-315.png"
+                          alt="Defender of Ukraine"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile8" data-artistid="19">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile8.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile8-320.png 320w,
+                            ./img/aboutwar-tile8-286.png 286w
+                          "
+                          sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
+                          src="./img/aboutwar-tile8-320.png"
+                          alt="When darkness comes, he will always arrive"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile9" data-artistid="17">
                         <img
                           class="aboutwar-slider_tile-img"
-                          src="./img/aboutwar-tile9.png"
-                          alt=""
+                          srcset="
+                            ./img/aboutwar-tile9-235.png 235w,
+                            ./img/aboutwar-tile9-210.png 210w
+                          "
+                          sizes="(min-width: 768px) 210px, (min-width: 320px) 235px"
+                          src="./img/aboutwar-tile9-235.png"
+                          alt="Angels who save lives"
                         />
                       </div>
                     </div>

@@ -1103,6 +1103,11 @@ a {
   margin-bottom: 30px;
   padding: 0 30px;
 }
+@media screen and (min-width: 768px) {
+  .aboutwar-section_text {
+    font-size: 48px;
+  }
+}
 
 .aboutwar-slider_plate {
   background-color: var(--main-black);
@@ -1115,6 +1120,11 @@ a {
   gap: 0px;
   height: 100%;
 }
+@media screen and (min-width: 768px) {
+  .aboutwar-slider_tiles {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+}
 
 .aboutwar-slider_tile {
   position: relative;
@@ -1125,6 +1135,16 @@ a {
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 3;
+  width: 340px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    width: 608px;
+  }
 }
 .aboutwar-tile1::after {
   bottom: 15px;
@@ -1136,6 +1156,16 @@ a {
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+  width: 235px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile2 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    width: 210px;
+  }
 }
 .aboutwar-tile2::after {
   bottom: 15px;
@@ -1147,6 +1177,16 @@ a {
   grid-column-start: 2;
   grid-row-end: 3;
   grid-column-end: 4;
+  width: 315px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile3 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    width: 562px;
+  }
 }
 .aboutwar-tile3::after {
   bottom: 15px;
@@ -1159,8 +1199,17 @@ a {
   grid-row-end: 2;
   grid-column-end: 5;
 }
+@media screen and (min-width: 768px) {
+  .aboutwar-tile4 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    width: 450px;
+  }
+}
 .aboutwar-tile4::after {
-  bottom: 15px;
+  top: 15px;
   right: 15px;
 }
 
@@ -1169,6 +1218,16 @@ a {
   grid-column-start: 5;
   grid-row-end: 2;
   grid-column-end: 6;
+  width: 235px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile5 {
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 3;
+    grid-column-end: 7;
+    width: 420px;
+  }
 }
 .aboutwar-tile5::after {
   bottom: 15px;
@@ -1180,6 +1239,16 @@ a {
   grid-column-start: 6;
   grid-row-end: 3;
   grid-column-end: 7;
+  width: 375px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile6 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: 3;
+    grid-column-end: 8;
+    width: 335px;
+  }
 }
 .aboutwar-tile6::after {
   bottom: 15px;
@@ -1191,6 +1260,16 @@ a {
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 5;
+  width: 315px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile7 {
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 6;
+    width: 563px;
+  }
 }
 .aboutwar-tile7::after {
   bottom: 15px;
@@ -1202,6 +1281,16 @@ a {
   grid-column-start: 7;
   grid-row-end: 3;
   grid-column-end: 8;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile8 {
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-row-end: 3;
+    grid-column-end: 9;
+    width: 286px;
+  }
 }
 .aboutwar-tile8::after {
   bottom: 15px;
@@ -1213,6 +1302,16 @@ a {
   grid-column-start: 5;
   grid-row-end: 3;
   grid-column-end: 6;
+  width: 235px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-tile9 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    width: 210px;
+  }
 }
 .aboutwar-tile9::after {
   bottom: 15px;
@@ -1226,7 +1325,12 @@ a {
 .aboutwar-slider_tile-text {
   color: var(--base-color);
   padding-left: 5px;
-  padding-right: 25px;
+  padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-slider_tile-text {
+    padding-left: 17px;
+  }
 }
 
 .aboutwar-slider_tile-text-pre {
@@ -1234,6 +1338,14 @@ a {
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
+}
+@media screen and (min-width: 768px) {
+  .aboutwar-slider_tile-text-pre {
+    font-size: 20px;
+    line-height: 1.1;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
 }
 
 .aboutwar-slider_stop-text {
