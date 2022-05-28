@@ -3,21 +3,8 @@
   color: var(--base-color);
   min-height: 100vh;
   //   position: relative;
-
-  //   overflow-x: hidden;
   //   outline: 1px rgb(245, 140, 140) dotted;
 }
-
-// .sticky-spacer {
-//   width: 20px;
-//   height: 2400px;
-//   background-color: rgb(21, 50, 146);
-//   margin-left: -50px;
-// }
-
-// .invi-section_container {
-//     outline: 2px rgb(247, 239, 8) dotted;
-// }
 
 .invi-section_flex-container {
   position: -webkit-sticky;
@@ -48,9 +35,11 @@
   margin-bottom: 30px;
   padding: 0 30px;
 
+  @media screen and (min-width: $tablet) {
+    font-size: 48px;
+
+    padding-left: 142px; //?
+    width: 732px; //?
+  }
   //   outline: 1px rgb(165, 207, 172) dotted;
 }
-
-// .invi-section_slider {
-//   outline: 1px rgb(58, 53, 53) dotted;
-// }

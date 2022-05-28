@@ -7,6 +7,10 @@
   grid-template-rows: auto auto;
   grid-template-columns: auto auto auto 460px auto;
   gap: 0px;
+
+  @media screen and (min-width: $tablet) {
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
 }
 
 .invi-slider_tile {
@@ -18,6 +22,17 @@
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 2;
+
+  width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+    width: 571px;
+  }
 
   &::after {
     @extend %i-after;
@@ -32,6 +47,17 @@
   grid-row-end: 3;
   grid-column-end: 2;
 
+  width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 5;
+
+    width: 571px;
+  }
+
   &::after {
     @extend %i-after;
     bottom: 15px;
@@ -44,6 +70,17 @@
   grid-column-start: 2;
   grid-row-end: 3;
   grid-column-end: 3;
+
+  width: 350px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+
+    width: 314px;
+  }
 
   &::after {
     @extend %i-after;
@@ -58,6 +95,17 @@
   grid-row-end: 2;
   grid-column-end: 4;
 
+  width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 6;
+
+    width: 572px;
+  }
+
   &::after {
     @extend %i-after;
     top: 15px;
@@ -71,6 +119,17 @@
   grid-row-end: 3;
   grid-column-end: 4;
 
+  width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+
+    width: 571px;
+  }
+
   &::after {
     @extend %i-after;
     bottom: 15px;
@@ -83,6 +142,17 @@
   grid-column-start: 4;
   grid-row-end: 3;
   grid-column-end: 5;
+
+  // width: 320px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: 3;
+    grid-column-end: 7;
+
+    width: 372px;
+  }
 
   &::after {
     @extend %i-after-inverse;
@@ -98,6 +168,17 @@
   grid-column-start: 5;
   grid-row-end: 3;
   grid-column-end: 6;
+
+  width: 350px;
+
+  @media screen and (min-width: $tablet) {
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: 3;
+    grid-column-end: 8;
+
+    width: 314px;
+  }
 
   &::after {
     @extend %i-after;
@@ -117,6 +198,10 @@
   //   letter-spacing: 0.05em;
   padding-left: 50px;
   padding-right: 25px;
+
+  @media screen and (min-width: $tablet) {
+    padding-left: 30px;
+  }
 }
 
 .invi-slider_tile-text-pre {
@@ -124,6 +209,13 @@
   font-size: 18px;
   line-height: 1.23;
   letter-spacing: 0.05em;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 20px;
+    line-height: 1.1;
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
 }
 
 //.invi-slider_stop-slide {
