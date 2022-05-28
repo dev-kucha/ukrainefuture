@@ -1,6 +1,5 @@
 .about-hopes-section {
   padding-top: 124px;
-  color: var(--base-color);
   min-height: 100vh;
 }
 
@@ -22,12 +21,11 @@
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
-  // background-color: var(--naftogaz-blue);
+  background-color: var(--base-color);
   margin: 0 -15px;
   // outline: 1px rgb(71, 32, 58) dotted;
 
   @media screen and (min-width: $tablet) {
-    background-color: var(--base-color);
   }
 }
 
