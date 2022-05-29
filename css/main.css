@@ -34,7 +34,7 @@
   }
 }
 
-.requisites-section_work-1::after, .about-hopes-tile9::after, .about-hopes-tile7::after, .about-hopes-tile6::after, .about-hopes-tile4::after, .about-hopes-tile3::after, .about-hopes-tile2::after, .about-hopes-tile1::after, .aboutwar-tile9::after, .aboutwar-tile8::after, .aboutwar-tile7::after, .aboutwar-tile6::after, .aboutwar-tile5::after, .aboutwar-tile4::after, .aboutwar-tile3::after, .aboutwar-tile2::after, .aboutwar-tile1::after, .invi-tile7::after, .invi-tile5::after, .invi-tile4::after, .invi-tile3::after, .invi-tile2::after, .invi-tile1::after, .intro2-section_work-4::after, .intro-section_work-2::after, .intro-section_work-1::after {
+.requisites-section_work-1::after, .about-hopes-tile9::after, .about-hopes-tile7::after, .about-hopes-tile6::after, .about-hopes-tile4::after, .about-hopes-tile3::after, .about-hopes-tile2::after, .about-hopes-tile1::after, .aboutwar-tile9::after, .aboutwar-tile8::after, .aboutwar-tile7::after, .aboutwar-tile6::after, .aboutwar-tile5::after, .aboutwar-tile4::after, .aboutwar-tile3::after, .aboutwar-tile2::after, .aboutwar-tile1::after, .invi-tile7::after, .invi-tile5::after, .invi-tile4::after, .invi-tile3::after, .invi-tile2::after, .invi-tile1::after, .intro2-section_work-1-2::after, .intro-section_work-2::after, .intro-section_work-1::after {
   content: "i";
   font-family: var(--adfont);
   font-size: 24px;
@@ -759,52 +759,43 @@ a {
   position: relative;
 }
 
-.intro2-section_work-1 {
+.intro2-section_work-1-1 {
   position: sticky;
   top: 0;
   margin: 0 -15px;
 }
+@media screen and (min-width: 768px) {
+  .intro2-section_work-1-1 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-.intro2-section_work-1-img {
+.intro2-section_work-1-1-img {
   display: block;
   width: 100%;
 }
 
-.intro2-section_work-2 {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  margin: 0 -15px;
-}
-
-.intro2-section_work-2-img {
-  display: block;
-  width: 100%;
-}
-
-.intro2-section_work-3 {
-  position: sticky;
-  top: 0;
-  margin: 0 -15px;
-}
-
-.intro2-section_work-3-img {
-  display: block;
-  width: 100%;
-}
-
-.intro2-section_work-4 {
+.intro2-section_work-1-2 {
   position: sticky;
   top: 0;
   z-index: 3;
   margin: 0 -15px;
 }
-.intro2-section_work-4::after {
+@media screen and (min-width: 768px) {
+  .intro2-section_work-1-2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.intro2-section_work-1-2::after {
   bottom: 6px;
   left: 15px;
 }
 
-.intro2-section_work-4-img {
+.intro2-section_work-1-2-img {
   display: block;
   width: 100%;
 }
@@ -815,6 +806,13 @@ a {
   font-size: 36px;
   line-height: 1.23;
   margin-top: 44px;
+}
+@media screen and (min-width: 768px) {
+  .intro2-section_small-text {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .btn-donate {

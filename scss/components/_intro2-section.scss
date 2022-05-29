@@ -12,40 +12,35 @@
 .intro2-section_sticky-container {
   position: relative;
 }
-.intro2-section_work-1 {
+.intro2-section_work-1-1 {
   position: sticky;
   top: 0;
   margin: 0 -15px;
+
+  @media screen and (min-width: $tablet) {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-.intro2-section_work-1-img {
+
+.intro2-section_work-1-1-img {
   display: block;
   width: 100%;
 }
-.intro2-section_work-2 {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  margin: 0 -15px;
-}
-.intro2-section_work-2-img {
-  display: block;
-  width: 100%;
-}
-.intro2-section_work-3 {
-  position: sticky;
-  top: 0;
-  margin: 0 -15px;
-}
-.intro2-section_work-3-img {
-  display: block;
-  width: 100%;
-}
-.intro2-section_work-4 {
+
+.intro2-section_work-1-2 {
   position: sticky;
 
   top: 0;
   z-index: 3;
   margin: 0 -15px;
+
+  @media screen and (min-width: $tablet) {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   &::after {
     @extend %i-after;
@@ -54,7 +49,7 @@
   }
 }
 
-.intro2-section_work-4-img {
+.intro2-section_work-1-2-img {
   display: block;
   width: 100%;
   //   margin-bottom: 100px;
@@ -65,4 +60,10 @@
   font-size: 36px;
   line-height: 1.23;
   margin-top: 44px;
+
+  @media screen and (min-width: $tablet) {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
