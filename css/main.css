@@ -564,6 +564,7 @@ a {
   grid-template-columns: auto auto;
   gap: 0px;
   height: 100%;
+  max-width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .intro-section_grid-container {
@@ -679,7 +680,7 @@ a {
   grid-column-start: 1;
   grid-row-end: 4;
   grid-column-end: 3;
-  max-width: 450px;
+  max-width: 100%;
   align-self: end;
 }
 @media screen and (min-width: 768px) {
@@ -872,11 +873,13 @@ a {
   line-height: 1.23;
   letter-spacing: 0.05em;
   color: var(--naftogaz-blue);
-  margin: 0 52px;
+  -webkit-transform: translateX(-90px);
+          transform: translateX(-90px);
 }
 @media screen and (min-width: 768px) {
   .chools-slider_added-text {
     font-size: 32px;
+    width: 480px;
   }
 }
 
@@ -921,7 +924,7 @@ a {
 
 .intro2-section_work-1-1-img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .intro2-section_work-1-2 {
@@ -944,7 +947,7 @@ a {
 
 .intro2-section_work-1-2-img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .intro2-section_small-text {

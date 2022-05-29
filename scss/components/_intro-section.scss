@@ -16,6 +16,7 @@
   grid-template-columns: auto auto;
   gap: 0px;
   height: 100%;
+  max-width: 100%;
 
   @media screen and (min-width: $desktop) {
     grid-template-rows: auto auto;
@@ -154,7 +155,7 @@
   grid-row-end: 4;
   grid-column-end: 3;
 
-  max-width: 450px;
+  max-width: 100%;
 
   align-self: end;
 
