@@ -674,7 +674,7 @@ a {
 .schools-slider_tiles {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 0px;
   height: 100%;
 }
@@ -685,26 +685,71 @@ a {
 
 .schools-tile1 {
   grid-area: 1/1/3/2;
+  width: 280px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile1 {
+    grid-area: 1/1/3/2;
+    width: 420px;
+  }
 }
 
 .schools-tile2 {
   grid-area: 1/2/2/3;
+  width: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile2 {
+    grid-area: 2/3/3/4;
+    width: 420px;
+  }
 }
 
 .schools-tile3 {
   grid-area: 1/3/2/5;
+  overflow: hidden;
+  width: 420px;
+  height: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile3 {
+    grid-area: 1/3/2/4;
+    width: 421px;
+    height: 210px;
+  }
 }
 
 .schools-tile4 {
   grid-area: 2/2/3/4;
+  width: 420px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile4 {
+    grid-area: 1/2/3/3;
+    width: 746px;
+  }
 }
 
 .schools-tile5 {
   grid-area: 2/4/3/5;
+  width: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile5 {
+    grid-area: 1/4/3/5;
+    width: 420px;
+  }
 }
 
 .schools-tile6 {
-  grid-area: 1/5/3/7;
+  grid-area: 1/6/3/7;
+  width: 470px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile6 {
+    grid-area: 1/5/3/6;
+    width: 420px;
+  }
 }
 
 .schools-slider_tile-img {
@@ -731,6 +776,11 @@ a {
   letter-spacing: 0.05em;
   color: var(--naftogaz-blue);
   margin: 0 52px;
+}
+@media screen and (min-width: 768px) {
+  .chools-slider_added-text {
+    font-size: 32px;
+  }
 }
 
 .chools-slider_added-text-span {
@@ -812,6 +862,7 @@ a {
     width: 660px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 40px;
   }
 }
 
