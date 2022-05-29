@@ -584,14 +584,6 @@ a {
     padding-left: 35px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .intro-section_large-text {
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-row-end: 2;
-    grid-column-end: 3;
-  }
-}
 
 .intro-section_small-text {
   font-size: 30px;
