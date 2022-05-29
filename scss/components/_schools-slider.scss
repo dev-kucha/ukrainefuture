@@ -123,11 +123,11 @@
   letter-spacing: 0.05em;
   color: var(--naftogaz-blue);
 
-  transform: translateX(-90px);
-
   @media screen and (min-width: $tablet) {
     font-size: 32px;
     width: 480px;
+
+    transform: translateX(-90px);
   }
 }
 

@@ -868,13 +868,13 @@ a {
   line-height: 1.23;
   letter-spacing: 0.05em;
   color: var(--naftogaz-blue);
-  -webkit-transform: translateX(-90px);
-          transform: translateX(-90px);
 }
 @media screen and (min-width: 768px) {
   .chools-slider_added-text {
     font-size: 32px;
     width: 480px;
+    -webkit-transform: translateX(-90px);
+            transform: translateX(-90px);
   }
 }
 
