@@ -117,19 +117,45 @@
           </div>
         </div>
       </section>
-      <section id="intro" class="intro-section visually-hidden">
+      <section id="intro" class="intro-section">
         <div class="container intro-section_container">
-          <div class="intro-section_large-text">More than 350</div>
-          <div class="intro-section_small-text-container">
+          <div class="intro-section_grid-container">
+            <div class="intro-section_large-text">More than 350</div>
             <div class="intro-section_small-text">
               Ukrainian children have created artworks about Ukraine after the Victory
             </div>
             <div class="intro-section_work-1" data-artistid="1">
-              <img src="./img/intro-section_work-1.png" alt="" class="intro-section_work-1-img" />
+              <img
+                class="intro-section_work-1-img"
+                srcset="
+                  ./img/intro-work-1-123.png   123w,
+                  ./img/intro-work-1-298.png   298w,
+                  ./img/intro-work-1-278.png   278w,
+                  ./img/intro-work-1-123@2.png 246w,
+                  ./img/intro-work-1-298@2.png 596w,
+                  ./img/intro-work-1-278@2.png 556w
+                "
+                sizes="(min-width: 1200px) 278px, (min-width: 768px) 298px, (min-width: 340px) 123px"
+                src="./img/intro-work-1-123.png"
+                alt="Ornamented murals"
+              />
             </div>
-          </div>
-          <div class="intro-section_work-2" data-artistid="2">
-            <img src="./img/intro-section_work-2.png" alt="" class="intro-section_work-2-img" />
+            <div class="intro-section_work-2" data-artistid="2">
+              <img
+                class="intro-section_work-2-img"
+                srcset="
+                  ./img/intro-work-2-450.png    450w,
+                  ./img/intro-work-2-455.png    455w,
+                  ./img/intro-work-2-510.png    510w,
+                  ./img/intro-work-2-450@2.png  900w,
+                  ./img/intro-work-2-455@2.png  910w,
+                  ./img/intro-work-2-510@2.png 1020w
+                "
+                sizes="(min-width: 1200px) 510px, (min-width: 768px) 455px, (min-width: 340px) 450px"
+                src="./img/intro-work-2-450.png"
+                alt="My Ukraine is picturesque and hospitable"
+              />
+            </div>
           </div>
         </div>
       </section>
