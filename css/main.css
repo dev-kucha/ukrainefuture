@@ -158,23 +158,23 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .header {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-    margin: -1px;
+    height: 100%;
+    width: 82px;
+    right: 0px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
 .header.active {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+@media screen and (min-width: 1200px) {
+  .header.active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 .header_container {
@@ -199,6 +199,12 @@ a {
     padding-right: 50px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header_container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 .logo {
   -webkit-transform: translateY(-200%);
@@ -212,10 +218,24 @@ a {
   -webkit-transition-timing-function: var(--tranformation-function);
           transition-timing-function: var(--tranformation-function);
 }
+@media screen and (min-width: 1200px) {
+  .logo {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
 
 .logo.active {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+@media screen and (min-width: 1200px) {
+  .logo.active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
 }
 
 .logo-icon {
@@ -241,6 +261,18 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .top-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 80vh;
+  }
+}
 
 .top-menu-controls {
   display: -webkit-box;
@@ -252,6 +284,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .top-menu-controls {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 .menu-container {
@@ -272,6 +312,12 @@ a {
   z-index: 1;
   background-color: var(--main-black);
   padding: 48px 40px;
+}
+@media screen and (min-width: 1200px) {
+  .menu-container {
+    width: 100vw;
+    right: -100vw;
+  }
 }
 .menu-container.is-open {
   -webkit-transform: translateX(-100%);
@@ -368,6 +414,14 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+@media screen and (min-width: 1200px) {
+  .langswitch-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .langswitch-item {
@@ -895,6 +949,17 @@ a {
   }
 }
 
+.schools-tile5 img {
+  width: 235px;
+  height: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile5 img {
+    width: 420px;
+    height: 420px;
+  }
+}
+
 .schools-tile6 {
   grid-area: 1/6/3/7;
   width: 470px;
@@ -903,6 +968,17 @@ a {
   .schools-tile6 {
     grid-area: 1/5/3/6;
     width: 420px;
+  }
+}
+
+.schools-tile6 img {
+  width: 470px;
+  height: 470px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile6 img {
+    width: 420px;
+    height: 420px;
   }
 }
 

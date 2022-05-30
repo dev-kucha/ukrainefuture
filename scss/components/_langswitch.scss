@@ -19,6 +19,10 @@
   display: flex;
   justify-content: flex-end;
   //   align-items: stretch;
+
+  @media screen and (min-width: $desktop) {
+    flex-direction: column;
+  }
 }
 
 .langswitch-item {

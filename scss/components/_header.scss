@@ -17,22 +17,29 @@
   //}
 
   @media screen and (min-width: $desktop) {
+    height: 100%;
+    width: 82px; //need 82px
+    right: 0px; // need 0px
+    transform: translateX(100%);
     //.visually-hidden - згодом видалити
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    // position: absolute;
+    // white-space: nowrap;
+    // width: 1px;
+    // height: 1px;
+    // overflow: hidden;
+    // border: 0;
+    // padding: 0;
+    // clip: rect(0 0 0 0);
+    // clip-path: inset(50%);
+    // margin: -1px;
   }
 }
 
 .header.active {
   transform: translateY(0);
+  @media screen and (min-width: $desktop) {
+    transform: translateX(0);
+  }
 }
 
 .header_container {
@@ -53,9 +60,10 @@
     padding-left: 50px;
     padding-right: 50px;
   }
-  // @media screen and (min-width: $desktop) {
-  //   width: $desktop;
-  // }
+  @media screen and (min-width: $desktop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .logo {
@@ -63,10 +71,19 @@
   transition-property: transform;
   transition-duration: var(--transfotmation-time);
   transition-timing-function: var(--tranformation-function);
+
+  @media screen and (min-width: $desktop) {
+    transform: translateX(100%);
+  }
 }
 
 .logo.active {
   transform: translateY(0);
+
+  @media screen and (min-width: $desktop) {
+    transform: translateX(0);
+    transform: rotate(-90deg);
+  }
 }
 
 .logo-icon {

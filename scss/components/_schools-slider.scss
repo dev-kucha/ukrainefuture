@@ -103,6 +103,16 @@
   }
 }
 
+.schools-tile5 img {
+  width: 235px;
+  height: 235px;
+
+  @media screen and (min-width: $tablet) {
+    width: 420px;
+    height: 420px;
+  }
+}
+
 .schools-tile6 {
   grid-area: 1 / 6 / 3 / 7;
 
@@ -112,6 +122,16 @@
     grid-area: 1 / 5 / 3 / 6;
 
     width: 420px;
+  }
+}
+
+.schools-tile6 img {
+  width: 470px;
+  height: 470px;
+
+  @media screen and (min-width: $tablet) {
+    width: 420px;
+    height: 420px;
   }
 }
 

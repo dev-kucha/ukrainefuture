@@ -2,12 +2,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (min-width: $desktop) {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 80vh;
+  }
 }
 
 .top-menu-controls {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (min-width: $desktop) {
+    flex-direction: column-reverse;
+  }
 }
 
 // .top-menu-button {
