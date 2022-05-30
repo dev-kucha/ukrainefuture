@@ -691,6 +691,11 @@ a {
     left: 240px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .intro-section_work-1::after {
+    left: 200px;
+  }
+}
 
 .intro-section_work-1-img {
   display: block;
@@ -2291,9 +2296,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -2301,7 +2306,8 @@ a {
         -ms-flex-positive: 2;
             flex-grow: 2;
     margin-bottom: 0;
-    margin-left: 80px;
+    margin-left: 70px;
+    height: 357px;
   }
 }
 
@@ -2316,7 +2322,8 @@ a {
 @media screen and (min-width: 1200px) {
   .requisites-item {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 16px;
+    margin-top: 16px;
   }
 }
 

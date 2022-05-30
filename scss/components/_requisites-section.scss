@@ -68,11 +68,12 @@
   @media screen and (min-width: $desktop) {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     flex-grow: 2;
     margin-bottom: 0;
-    margin-left: 80px;
+    margin-left: 70px;
+    height: 357px;
     // outline: 1px dotted rgb(28, 126, 25);
   }
 }
@@ -85,7 +86,8 @@
   }
   @media screen and (min-width: $desktop) {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 16px;
+    margin-top: 16px;
   }
 }
 

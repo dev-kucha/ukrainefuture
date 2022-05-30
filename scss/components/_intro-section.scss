@@ -135,6 +135,10 @@
       left: 0;
       left: 240px;
     }
+
+    @media screen and (min-width: $desktop) {
+      left: 200px;
+    }
   }
 }
 
