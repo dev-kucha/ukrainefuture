@@ -96,8 +96,8 @@
   }
 
   @media screen and (min-width: $desktop) {
-    max-width: 832px;
-    margin-bottom: 54px;
+    max-width: 640px;
+    margin-bottom: 46px;
   }
 }
 
@@ -109,6 +109,10 @@
 
   @media screen and (min-width: $tablet) {
     max-width: 428px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 640px;
   }
 }
 
