@@ -11,5 +11,6 @@
   }
   @media screen and (min-width: $desktop) {
     width: $desktop;
+    outline: 1px rgb(57, 71, 32) dotted;
   }
 }
