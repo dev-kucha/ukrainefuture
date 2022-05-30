@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
   padding: 0 15px;
+  outline: 1px rgb(57, 71, 32) dotted;
   // outline: 1px gray dotted;
 
   @media screen and (min-width: $mobile) {
@@ -11,6 +12,5 @@
   }
   @media screen and (min-width: $desktop) {
     width: $desktop;
-    outline: 1px rgb(57, 71, 32) dotted;
   }
 }

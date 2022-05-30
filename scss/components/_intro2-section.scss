@@ -5,13 +5,23 @@
   //   overflow-x: hidden;
 }
 
-//.intro2-section_container {
-//   overflow: hidden;
-//}
+.intro2-section_container {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
 
 .intro2-section_sticky-container {
   position: relative;
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: 517px;
+  }
 }
+
 .intro2-section_work-1-1 {
   position: sticky;
   top: 0;
@@ -21,6 +31,10 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 100%;
   }
 }
 
@@ -40,6 +54,10 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 100%;
   }
 
   &::after {
@@ -67,5 +85,14 @@
     margin-right: auto;
 
     font-size: 40px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-left: 127px;
+    width: 520px;
+    margin-left: 0;
+    margin-right: 0;
+    // flex-basis: 400px;
+    margin-bottom: 120px;
   }
 }
