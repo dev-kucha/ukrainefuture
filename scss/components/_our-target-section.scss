@@ -11,6 +11,7 @@
   }
 
   @media screen and (min-width: $desktop) {
+    padding-top: 130px;
     padding-bottom: 66px;
   }
 }
@@ -22,6 +23,11 @@
   @media screen and (min-width: $desktop) {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
   }
 }
 
@@ -31,10 +37,19 @@
   margin-bottom: 30px;
 
   @media screen and (min-width: $tablet) {
-    width: 568px;
+    max-width: 568px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+    line-height: 1.19;
+    margin-bottom: 0;
+    flex-shrink: 2;
+    padding-right: 15px;
+    // max-width: 100%;
   }
 }
 
@@ -48,11 +63,17 @@
   margin-bottom: 30px;
 
   @media screen and (min-width: $tablet) {
-    width: 568px;
+    max-width: 568px;
     margin-left: auto;
     margin-right: auto;
 
     margin-bottom: 80px;
+
+    @media screen and (min-width: $desktop) {
+      max-width: 532px;
+      margin-bottom: 0;
+      flex-shrink: 1;
+    }
   }
 }
 
@@ -82,6 +103,9 @@
     flex-direction: column-reverse;
     align-items: start;
     // justify-content: center;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -93,6 +117,9 @@
   @media screen and (min-width: $tablet) {
     margin-bottom: 30px;
   }
+
+  // @media screen and (min-width: $desktop) {
+  // }
 }
 
 .progres-bar_loader-line {
@@ -106,6 +133,10 @@
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 15px;
+  }
 }
 
 .progres-bar_loader-line:before {
