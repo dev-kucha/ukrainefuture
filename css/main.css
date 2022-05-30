@@ -2024,6 +2024,22 @@ a {
     padding-bottom: 70px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .our-target-section {
+    padding-bottom: 66px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-target-section_flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .our-target-section_large-text {
   font-size: 40px;
@@ -2070,6 +2086,20 @@ a {
 
 .progres-bar {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .progres-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
 }
 
 .progres-bar_text {

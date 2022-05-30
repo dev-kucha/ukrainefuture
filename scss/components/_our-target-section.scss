@@ -9,10 +9,21 @@
     padding-top: 140px;
     padding-bottom: 70px;
   }
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 66px;
+  }
 }
 
 // .our-target-section_container {
 // }
+
+.our-target-section_flex-container {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .our-target-section_large-text {
   font-size: 40px;
@@ -65,6 +76,13 @@
 
 .progres-bar {
   text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    // justify-content: center;
+  }
 }
 
 .progres-bar_text {
