@@ -902,6 +902,17 @@ a {
   }
 }
 
+.schools-tile2 img {
+  width: 235px;
+  height: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile2 img {
+    width: 420px;
+    height: 210px;
+  }
+}
+
 .schools-tile3 {
   grid-area: 1/3/2/5;
   overflow: hidden;
@@ -922,7 +933,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .schools-tile3 img {
-    width: 420px;
+    width: 421px;
     height: 210px;
   }
 }
@@ -935,6 +946,17 @@ a {
   .schools-tile4 {
     grid-area: 1/2/3/3;
     width: 746px;
+  }
+}
+
+.schools-tile4 img {
+  width: 420px;
+  height: 235px;
+}
+@media screen and (min-width: 768px) {
+  .schools-tile4 img {
+    width: 746px;
+    height: 420px;
   }
 }
 
