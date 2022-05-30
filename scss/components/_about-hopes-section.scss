@@ -14,6 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  @media screen and (min-width: $tablet) {
+    top: 80px;
+  }
 }
 
 .about-hopes-section_flex-container2 {

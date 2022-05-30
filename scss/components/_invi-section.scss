@@ -14,8 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  //   background-color: bisque;
-  //   outline: 1px rgb(105, 94, 94) dotted;
+
+  @media screen and (min-width: $tablet) {
+    top: 80px;
+  }
 }
 
 .invi-section_flex-container2 {

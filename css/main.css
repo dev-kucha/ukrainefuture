@@ -763,6 +763,11 @@ a {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+@media screen and (min-width: 768px) {
+  .schools-section_flex-container {
+    top: 80px;
+  }
+}
 
 .schools-section_flex-container2 {
   display: -webkit-box;
@@ -1072,6 +1077,11 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .invi-section_flex-container {
+    top: 80px;
+  }
 }
 
 .invi-section_flex-container2 {
@@ -1390,6 +1400,11 @@ a {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+@media screen and (min-width: 768px) {
+  .aboutwar-section_flex-container {
+    top: 80px;
+  }
+}
 
 .aboutwar-section_flex-container2 {
   display: -webkit-box;
@@ -1694,6 +1709,11 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .about-hopes-section_flex-container {
+    top: 80px;
+  }
 }
 
 .about-hopes-section_flex-container2 {
