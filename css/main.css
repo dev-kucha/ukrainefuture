@@ -2388,11 +2388,51 @@ a {
   padding-top: 92px;
   padding-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 41;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
 
 .footer_title {
   font-size: 48px;
   line-height: 1.23;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer_title {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer_add-container {
+    text-align: left;
+    width: 666px;
+  }
 }
 
 .social {
@@ -2403,6 +2443,11 @@ a {
 @media screen and (min-width: 768px) {
   .social {
     margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social {
+    margin-bottom: 26px;
   }
 }
 
@@ -2418,6 +2463,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 128px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social-list {
+    margin-left: -96px;
+    margin-bottom: 62px;
   }
 }
 
@@ -2475,6 +2526,11 @@ a {
     margin-bottom: 80px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .insta {
+    margin-bottom: 78px;
+  }
+}
 
 .insta_text {
   font-size: 20px;
@@ -2486,6 +2542,11 @@ a {
     font-size: 16px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .insta_text {
+    font-size: 20px;
+  }
+}
 
 .insta_link {
   font-size: 14px;
@@ -2494,6 +2555,19 @@ a {
 
 .main-orglogos--footer {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .main-orglogos--footer {
+    width: 450px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-orglogos--footer .main-orglogos_logo-img {
+    height: 30px;
+  }
 }
 
 .copyright {

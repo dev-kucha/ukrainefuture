@@ -4,21 +4,55 @@
   text-align: center;
   padding-top: 92px;
   padding-bottom: 30px;
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 41;
+  }
+}
+
+.footer_container {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    // outline: 1px dotted orange;
+  }
 }
 
 .footer_title {
   font-size: 48px;
   line-height: 1.23;
   margin-bottom: 20px;
+  // outline: 1px dotted orange;
+
+  @media screen and (min-width: $desktop) {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    font-size: 64px;
+  }
+}
+
+.footer_add-container {
+  @media screen and (min-width: $desktop) {
+    // outline: 1px dotted orange;
+    text-align: left;
+    width: 666px;
+  }
 }
 
 .social {
   font-size: 14px;
   line-height: 1.23;
   margin-bottom: 40px;
+  // outline: 1px dotted orange;
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 26px;
   }
 }
 .social-list {
@@ -32,6 +66,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 128px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-left: -96px;
+    margin-bottom: 62px;
   }
 }
 
@@ -80,6 +119,10 @@
   @media screen and (min-width: $tablet) {
     margin-bottom: 80px;
   }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 78px;
+  }
 }
 
 .insta_text {
@@ -90,6 +133,10 @@
   @media screen and (min-width: $tablet) {
     font-size: 16px;
   }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 20px;
+  }
 }
 
 .insta_link {
@@ -99,8 +146,22 @@
 
 .main-orglogos--footer {
   margin-bottom: 30px;
+  // outline: 1px dotted orange;
+
+  @media screen and (min-width: $desktop) {
+    width: 450px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+.main-orglogos--footer .main-orglogos_logo-img {
+  @media screen and (min-width: $desktop) {
+    height: 30px;
+  }
 }
 
 .copyright {
   font-weight: 500;
+  // outline: 1px dotted orange;
 }
