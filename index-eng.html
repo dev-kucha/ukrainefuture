@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,30 +24,32 @@
     <header class="header">
       <div class="header_container">
         <nav class="top-menu">
-          <a class="logo" href="/index-ukr.html"
-            ><img class="logo-icon" src="./img/main-title-tablet-ukr.svg" alt="" />
+          <a class="logo" href="/index-eng.html"
+            ><img class="logo-icon" src="./img/main-title-tablet-eng.svg" alt="" />
           </a>
           <div class="menu-container" id="menu-container" data-menu>
             <ul class="site-nav list">
               <li class="site-nav__item">
-                <a class="site-nav__link link site-nav__link--active" href="#intro">Про проєкт</a>
+                <a class="site-nav__link link site-nav__link--active" href="#intro"
+                  >About project</a
+                >
               </li>
               <li class="site-nav__item">
-                <a class="site-nav__link link" href="#requisites">Підтримати</a>
+                <a class="site-nav__link link" href="#requisites">Donate</a>
               </li>
               <li class="site-nav__item">
-                <a class="site-nav__link link" href="#contacts">Контакти</a>
+                <a class="site-nav__link link" href="#contacts">Contacts</a>
               </li>
             </ul>
             <div class="langchanger">
-              <a href="index-eng.html" class="langchanger__link link">
+              <a href="index.html" class="langchanger__link link">
                 <div class="langchanger__tumbler tumbler">
                   <div class="tumbler__right-back"></div>
-                  <div class="tumbler__ball tumbler__ball--to-eng"></div>
+                  <div class="tumbler__ball tumbler__ball--to-ukr"></div>
                 </div>
               </a>
               <div class="langchanger__text">
-                <a href="index-eng.html" class="langchanger__link link">english</a>
+                <a href="index.html" class="langchanger__link link">українською</a>
               </div>
             </div>
           </div>
@@ -56,14 +58,13 @@
             <div class="langswitch">
               <ul class="langswitch-items list">
                 <li class="langswitch-item">
-                  <a class="langswitch-link" href="index-eng.html">eng</a>
+                  <a class="langswitch-link langswitch-link--current" href="index-eng.html">eng</a>
                 </li>
                 <li class="langswitch-item">
-                  <a class="langswitch-link langswitch-link--current" href="index.html">укр</a>
+                  <a class="langswitch-link" href="index.html">укр</a>
                 </li>
               </ul>
             </div>
-
             <button
               type="button"
               class="top-menu-button"
@@ -92,13 +93,13 @@
       <section class="main-section">
         <div class="container">
           <h1 class="visually-hidden">UkraineFuture</h1>
-          <div class="main-title main-title--ukr"></div>
+          <div class="main-title main-title--eng"></div>
           <div class="main-orglogos">
             <ul class="main-orglogos_logo-items list">
               <li class="main-orglogos_logo-item">
                 <img
                   class="main-orglogos_logo-img"
-                  src="./img/naftogaz-ukr.svg"
+                  src="./img/naftogaz-eng.svg"
                   alt="Naftogaz logo"
                 />
               </li>
@@ -119,9 +120,9 @@
       <section id="intro" class="intro-section">
         <div class="container intro-section_container">
           <div class="intro-section_grid-container">
-            <div class="intro-section_large-text">Понад 350</div>
+            <div class="intro-section_large-text">More than&nbsp;350</div>
             <div class="intro-section_small-text">
-              українських дітей підготували творчі роботи про Україну після Перемоги
+              Ukrainian children have created artworks about Ukraine after the Victory
             </div>
             <div class="intro-section_work-1" data-artistid="1">
               <img
@@ -136,7 +137,7 @@
                 "
                 sizes="(min-width: 1200px) 278px, (min-width: 768px) 298px, (min-width: 340px) 123px"
                 src="./img/intro-work-1-123.png"
-                alt="Орнаментовані мурали"
+                alt="Ornamented murals"
               />
             </div>
             <div class="intro-section_work-2" data-artistid="2">
@@ -152,19 +153,20 @@
                 "
                 sizes="(min-width: 1200px) 510px, (min-width: 768px) 455px, (min-width: 340px) 450px"
                 src="./img/intro-work-2-450.png"
-                alt="Мальовнича і гостинна моя Україна"
+                alt="My Ukraine is picturesque and hospitable"
               />
             </div>
           </div>
         </div>
       </section>
+
       <section class="schools-section">
         <div class="container schools-section_container">
           <div class="schools-section_sticky-container">
             <div class="schools-section_flex-container">
               <div class="schools-section_flex-container2">
-                <div class="schools-section_text schools-section_text--ls">
-                  аби допомогти зібрати кошти для шкіл, що постраждали від війни та окупації:
+                <div class="schools-section_text">
+                  To help raise funds for schools affected by war and Russian occupation:
                 </div>
               </div>
               <div class="schools-section_slider new-slider schools-slider">
@@ -182,7 +184,7 @@
                           "
                           sizes="(min-width: 768px) 420px, (min-width: 340px) 280px"
                           src="./img/schools-tile-1-280.jpg"
-                          alt="Розрушений шкільний клас"
+                          alt="Destroyed school classroom"
                         />
                       </div>
                       <div class="schools-slider_tile new-tile schools-tile2">
@@ -196,7 +198,7 @@
                           "
                           sizes="(min-width: 768px) 420px, (min-width: 340px) 235px"
                           src="./img/schools-tile-2-235.jpg"
-                          alt="Розрушений шкільний клас"
+                          alt="Destroyed school classroom"
                         />
                       </div>
                       <div class="schools-slider_tile new-tile schools-tile3">
@@ -210,7 +212,7 @@
                           "
                           sizes="(min-width: 768px) 421px, (min-width: 340px) 420px"
                           src="./img/schools-tile-3-420.jpg"
-                          alt="Розрушений шкільний клас"
+                          alt="Destroyed school classroom"
                         />
                       </div>
                       <div class="schools-slider_tile new-tile schools-tile4">
@@ -224,7 +226,7 @@
                           "
                           sizes="(min-width: 768px) 746px, (min-width: 340px) 420px"
                           src="./img/schools-tile-4-420.jpg"
-                          alt="Розрушений шкільний клас"
+                          alt="Destroyed school classroom"
                         />
                       </div>
                       <div class="schools-slider_tile new-tile schools-tile5">
@@ -238,7 +240,7 @@
                           "
                           sizes="(min-width: 768px) 420px, (min-width: 340px) 235px"
                           src="./img/schools-tile-5-235.jpg"
-                          alt="Розрушений шкільний клас"
+                          alt="Destroyed school classroom"
                         />
                       </div>
                       <div class="schools-slider_tile new-tile schools-tile6">
@@ -252,23 +254,23 @@
                           "
                           sizes="(min-width: 768px) 420px, (min-width: 340px) 470px"
                           src="./img/schools-tile-6-420.jpg"
-                          alt="Спалений шкільний автобус"
+                          alt="Burned school bus"
                         />
                       </div>
                     </div>
                   </div>
                   <div class="chools-slider_added-text">
-                    <span class="chools-slider_added-text-span">понад 700 шкіл</span> постраждали
-                    від агресії РФ. Ці школи були бомбардовані, обстріляні, пограбовані окупантами,
-                    або зруйновані повністю.
+                    <span class="chools-slider_added-text-span">more than 700 schools</span> have
+                    been affected by Russian aggression. These schools were bombed, shelled, looted
+                    by the occupants, or completely destroyed.
                   </div>
                   <div class="schools-slider_stop-slide new-slider_stop-slide">
                     <p class="schools-slider_stop-text">
-                      Дізнатися реальні історії шкіл можна
-                      <a href="#goal" class="schools-slider_stop-text-link">тут</a>
+                      You can see the real stories of schools
+                      <a href="#goal" class="schools-slider_stop-text-link">here</a>
                     </p>
                     <button class="btn-donate" onclick="window.location.href = '#requisites';">
-                      підтримати
+                      donate
                     </button>
                   </div>
                 </div>
@@ -294,7 +296,7 @@
                 "
                 sizes="(min-width: 1200px) 517px, (min-width: 768px) 600px, (min-width: 340px) 480px"
                 src="./img/intro2-section_work-1-1-480.png"
-                alt="Сонце перемоги"
+                alt="The sun of victory"
               />
             </div>
             <div class="intro2-section_work-1-2" data-artistid="3">
@@ -310,12 +312,12 @@
                 "
                 sizes="(min-width: 1200px) 517px, (min-width: 768px) 600px, (min-width: 340px) 480px"
                 src="./img/intro2-section_work-1-2-480.png"
-                alt="Сонце перемоги"
+                alt="The sun of victory"
               />
             </div>
           </div>
           <div class="intro2-section_small-text">
-            В цій збірці ви побачите малюнки, відео, вірші та оповідання
+            In this collection you will see pictures, videos, poems and stories
           </div>
         </div>
       </section>
@@ -324,7 +326,7 @@
           <div class="invi-section_sticky-container">
             <div class="invi-section_flex-container">
               <div class="invi-section_flex-container2">
-                <div class="invi-section_text">про незламність України</div>
+                <div class="invi-section_text">about bravery of Ukraine</div>
               </div>
               <div class="invi-section_slider new-slider invi-slider">
                 <div class="invi-slider_plate new-slider_plate">
@@ -336,7 +338,7 @@
                           srcset="./img/invi-tile1-320.png 320w, ./img/invi-tile1-571.png 571w"
                           sizes="(min-width: 768px) 571px, (min-width: 340px) 320px"
                           src="./img/invi-tile1-320.png"
-                          alt="Рідна країна"
+                          alt="Native country"
                         />
                       </div>
                       <div class="invi-slider_tile new-tile invi-tile2" data-artistid="5">
@@ -354,7 +356,7 @@
                           srcset="./img/invi-tile3-350.png 350w, ./img/invi-tile3-314.png 314w"
                           sizes="(min-width: 768px) 314px, (min-width: 340px) 350px"
                           src="./img/invi-tile3-350.png"
-                          alt="Я і Україна"
+                          alt="I and Ukraine"
                         />
                       </div>
                       <div class="invi-slider_tile new-tile invi-tile4" data-artistid="7">
@@ -363,7 +365,7 @@
                           srcset="./img/invi-tile4-320.png 320w, ./img/invi-tile4-572.png 572w"
                           sizes="(min-width: 768px) 572px, (min-width: 340px) 320px"
                           src="./img/invi-tile4-320.png"
-                          alt="Вільна країна"
+                          alt="Free country"
                         />
                       </div>
                       <div class="invi-slider_tile new-tile invi-tile5" data-artistid="8">
@@ -372,7 +374,7 @@
                           srcset="./img/invi-tile5-320.png 320w, ./img/invi-tile5-571.png 571w"
                           sizes="(min-width: 768px) 571px, (min-width: 340px) 320px"
                           src="./img/invi-tile5-320.png"
-                          alt="Мальовнича Україна"
+                          alt="Picturesque Ukraine"
                         />
                       </div>
                       <div class="invi-slider_tile new-tile invi-tile6" data-artistid="9">
@@ -405,23 +407,23 @@
                           srcset="./img/invi-tile7-350.png 350w, ./img/invi-tile7-314.png 314w"
                           sizes="(min-width: 768px) 314px, (min-width: 340px) 350px"
                           src="./img/invi-tile7-350.png"
-                          alt="Моя красноградщина після війни"
+                          alt="My Krasnograd region after the war"
                         />
                       </div>
                     </div>
                   </div>
                   <div class="invi-slider_stop-slide new-slider_stop-slide">
                     <p class="invi-slider_stop-text">
-                      Подивитися всі роботи можна
+                      You can find all the artworks
                       <a
                         href="https://www.instagram.com/ukraine_future_prosperity/#ukraine_future"
                         target="_blank"
                         class="invi-slider_stop-text-link"
-                        >тут</a
+                        >here</a
                       >
                     </p>
                     <button class="btn-donate" onclick="window.location.href = '#requisites';">
-                      підтримати
+                      donate
                     </button>
                   </div>
                 </div>
@@ -436,7 +438,7 @@
           <div class="aboutwar-section_sticky-container">
             <div class="aboutwar-section_flex-container">
               <div class="aboutwar-section_flex-container2">
-                <div class="aboutwar-section_text">про війну очима дітей</div>
+                <div class="aboutwar-section_text">about the war through the eyes of children</div>
               </div>
               <div class="aboutwar-section_slider new-slider aboutwar-slider">
                 <div class="aboutwar-slider_plate new-slider_plate">
@@ -451,7 +453,7 @@
                           "
                           sizes="(min-width: 768px) 608px, (min-width: 320px) 340px"
                           src="./img/aboutwar-tile1-340.png"
-                          alt="Вірю в ЗСУ"
+                          alt="I believe in the Armed Forces"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile2" data-artistid="12">
@@ -463,7 +465,7 @@
                           "
                           sizes="(min-width: 768px) 210px, (min-width: 320px) 235px"
                           src="./img/aboutwar-tile2-235.png"
-                          alt="Ми вистоїмо"
+                          alt="We will endure"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile3" data-artistid="13">
@@ -475,7 +477,7 @@
                           "
                           sizes="(min-width: 768px) 562px, (min-width: 320px) 315px"
                           src="./img/aboutwar-tile3-315.png"
-                          alt="Врог не пройде"
+                          alt="The enemy will not pass"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile4" data-artistid="15">
@@ -504,7 +506,7 @@
                           "
                           sizes="(min-width: 768px) 420px, (min-width: 320px) 235px"
                           src="./img/aboutwar-tile5-235.png"
-                          alt="Герої сьогодення"
+                          alt="Heroes of today"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile6" data-artistid="18">
@@ -528,7 +530,7 @@
                           "
                           sizes="(min-width: 768px) 563px, (min-width: 320px) 315px"
                           src="./img/aboutwar-tile7-315.png"
-                          alt="Захисник України"
+                          alt="Defender of Ukraine"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile8" data-artistid="19">
@@ -540,7 +542,7 @@
                           "
                           sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
                           src="./img/aboutwar-tile8-320.png"
-                          alt="Коли прийде пітьма завжди прилетить він"
+                          alt="When darkness comes, he will always arrive"
                         />
                       </div>
                       <div class="aboutwar-slider_tile new-tile aboutwar-tile9" data-artistid="17">
@@ -552,23 +554,23 @@
                           "
                           sizes="(min-width: 768px) 210px, (min-width: 320px) 235px"
                           src="./img/aboutwar-tile9-235.png"
-                          alt="Янголи, які рятують життя"
+                          alt="Angels who save lives"
                         />
                       </div>
                     </div>
                   </div>
                   <div class="aboutwar-slider_stop-slide new-slider_stop-slide">
                     <p class="aboutwar-slider_stop-text">
-                      Подивитися всі роботи можна
+                      You can find all the artworks
                       <a
                         href="https://www.instagram.com/ukraine_future_prosperity/#ukraine_future"
                         target="_blank"
                         class="invi-slider_stop-text-link"
-                        >тут</a
+                        >here</a
                       >
                     </p>
                     <button class="btn-donate" onclick="window.location.href = '#requisites';">
-                      підтримати
+                      donate
                     </button>
                   </div>
                 </div>
@@ -583,7 +585,7 @@
           <div class="about-hopes-section_sticky-container">
             <div class="about-hopes-section_flex-container">
               <div class="about-hopes-section_flex-container2">
-                <div class="about-hopes-section_text">про надії на щасливе майбутнє</div>
+                <div class="about-hopes-section_text">about hope for a happy future</div>
               </div>
               <div class="about-hopes-section_slider new-slider about-hopes-slider">
                 <div class="about-hopes-slider_plate new-slider_plate">
@@ -601,7 +603,7 @@
                           "
                           sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile1-320.png"
-                          alt="Мирна весняна столиця"
+                          alt="Peaceful spring capital"
                         />
                       </div>
                       <div
@@ -616,7 +618,7 @@
                           "
                           sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile2-320.png"
-                          alt="Погляд в майбутнє"
+                          alt="Looking to the future"
                         />
                       </div>
                       <div
@@ -631,7 +633,7 @@
                           "
                           sizes="(min-width: 768px) 286px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile3-320.png"
-                          alt="Щасливі тварини у вільній країні"
+                          alt="Happy animals in a free country"
                         />
                       </div>
                       <div
@@ -646,7 +648,7 @@
                           "
                           sizes="(min-width: 768px) 312px, (min-width: 320px) 175px"
                           src="./img/about-hopes-tile4-175.png"
-                          alt="Квітуча Україна"
+                          alt="Prosperous Ukraine"
                         />
                       </div>
                       <div
@@ -673,7 +675,7 @@
                           "
                           sizes="(min-width: 768px) 304px, (min-width: 340px) 340px"
                           src="./img/about-hopes-tile6-340.png"
-                          alt="Вперед в мирну Україну"
+                          alt="Forward to a peaceful country"
                         />
                       </div>
                       <div
@@ -688,7 +690,7 @@
                           "
                           sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile7-320.png"
-                          alt="Харків майбутнього"
+                          alt="Kharkiv of the future"
                         />
                       </div>
                       <div
@@ -721,23 +723,23 @@
                           "
                           sizes="(min-width: 768px) 572px, (min-width: 320px) 320px"
                           src="./img/about-hopes-tile9-320.png"
-                          alt="ВІдбудована українська вулиця"
+                          alt="Rebuilt Ukrainian street"
                         />
                       </div>
                     </div>
                   </div>
                   <div class="about-hopes-slider_stop-slide new-slider_stop-slide">
                     <p class="about-hopes-slider_stop-text">
-                      Подивитися всі роботи можна
+                      You can find all the artworks
                       <a
                         href="https://www.instagram.com/ukraine_future_prosperity/#ukraine_future"
                         target="_blank"
                         class="invi-slider_stop-text-link"
-                        >тут</a
+                        >here</a
                       >
                     </p>
                     <button class="btn-donate" onclick="window.location.href = '#requisites';">
-                      підтримати
+                      donate
                     </button>
                   </div>
                 </div>
@@ -749,11 +751,11 @@
       </section>
       <section id="goal" class="our-target-section">
         <div class="container our-target-section_container">
-          <h2 class="our-target-section_title visually-hidden title">Наша мета</h2>
+          <h2 class="our-target-section_title visually-hidden title">Our goal</h2>
           <div class="our-target-section_flex-container">
             <div class="our-target-section_large-text">
-              Наша перша мета – зібрати 500 000 грн, аби допомогти 10 школам відновити навчання
-              дітей
+              Our first goal is to raise UAH 500,000 to help 10 schools to resume the educational
+              process for children
             </div>
             <div class="youtube-media">
               <iframe
@@ -767,32 +769,35 @@
             </div>
           </div>
           <div class="progres-bar">
-            <div class="progres-bar_text">на сьогодні зібрано</div>
+            <div class="progres-bar_text">donated already</div>
             <div class="progres-bar_loader-line"></div>
           </div>
         </div>
       </section>
       <section id="requisites" class="requisites-section">
         <div class="container requisites-section_container">
-          <h2 class="requisites-section_title title">Реквізити</h2>
-          <div class="requisites-section_subtitle">ГО Центр<br />«Розвиток КСВ»</div>
+          <h2 class="requisites-section_title title">Account details</h2>
+          <div class="requisites-section_subtitle">NGO “CSR Ukraine”</div>
           <ul class="requisites-items list">
             <li class="requisites-item">
-              <div class="requisites-item-key">Код ЕДРПОУ:</div>
-              <div class="requisites-item-value">35310636</div>
-            </li>
-            <li class="requisites-item">
-              <div class="requisites-item-key">Рахунок в гривні:</div>
-              <div class="requisites-item-value">UA73 3808 0500 0000 0026 0064 0014 1</div>
-            </li>
-            <li class="requisites-item">
-              <div class="requisites-item-key">Рахунок в євро:</div>
+              <div class="requisites-item-key">Euro:</div>
               <div class="requisites-item-value">UA73 3808 0500 0000 0026 0027 8058 6</div>
             </li>
+
             <li class="requisites-item">
-              <div class="requisites-item-key">Призначення платежу:</div>
+              <div class="requisites-item-key">SWIFT code:</div>
+              <div class="requisites-item-value">AVALUAUK</div>
+            </li>
+
+            <li class="requisites-item">
+              <div class="requisites-item-key">Bank:</div>
+              <div class="requisites-item-value">Raiffeisen BANK AVAL</div>
+            </li>
+
+            <li class="requisites-item">
+              <div class="requisites-item-key">Purpose of payment:</div>
               <div class="requisites-item-value">
-                “Безповоротна фінансова допомога на проєкт “Україна майбутнього”
+                “Charity donation for the project “Ukraine future”
               </div>
             </li>
           </ul>
@@ -817,7 +822,7 @@
     </main>
     <footer id="contacts" class="footer">
       <div class="container footer_container">
-        <h2 class="footer_title title">Контакти</h2>
+        <h2 class="footer_title title">Contacts</h2>
         <div class="footer_add-container">
           <div class="social">
             <ul class="social-list list">
@@ -848,7 +853,7 @@
                 </div>
                 <div class="social_link">
                   <a href="https://www.facebook.com/ukrainefutureprosperity"
-                    >https://www.facebook.com/<span class="br"> </span>ukrainefutureprosperity</a
+                    >https://www.facebook.com/<span class="br"> </span> ukrainefutureprosperity</a
                   >
                 </div>
               </li>
@@ -865,7 +870,7 @@
             </ul>
             <div class="insta">
               <div class="insta_text">
-                Творчі роботи всіх учасників можна подивитися в Інстаграмі проєкту!
+                You can find the artworks of all of the participants on our Instagram!
               </div>
               <div class="insta_link">
                 <a href="https://www.instagram.com/ukraine_future_prosperity/#ukraine_future"
@@ -875,19 +880,20 @@
               </div>
             </div>
             <div class="project-create">
-              Проєкт створено компанією <a href="https://csr.ugv.com.ua/">Нафтогаз</a> та
-              <a href="https://csr-ukraine.org/">ГО&nbsp;Центр&nbsp;Розвиток&nbsp;КСВ</a> (<a
+              Project was created by <a href="https://csr.ugv.com.ua/">Naftogaz&nbsp;company</a> and
+              <a href="https://csr-ukraine.org/">NGO&nbsp;CSR&nbsp;Ukraine</a> (<a
                 href="https://divchata-stem.org/"
-                >ініціатива&nbsp;Дівчата&nbsp;STEM</a
+                >STEM&nbsp;Girls&nbsp;initiative</a
               >)
             </div>
           </div>
+
           <div class="main-orglogos main-orglogos--footer">
             <ul class="main-orglogos_logo-items list">
               <li class="main-orglogos_logo-item">
                 <img
                   class="main-orglogos_logo-img"
-                  src="./img/naftogaz-ukr.svg"
+                  src="./img/naftogaz-eng.svg"
                   alt="Naftogaz logo"
                 />
               </li>
@@ -911,6 +917,6 @@
     <script src="./js/menu.js" type="module"></script>
     <script src="./js/site-nav.js" type="module"></script>
     <script src="./js/many-sliders.js" type="module"></script>
-    <script src="./js/work-info-ukr.js" type="module"></script>
+    <script src="./js/work-info.js" type="module"></script>
   </body>
 </html>
