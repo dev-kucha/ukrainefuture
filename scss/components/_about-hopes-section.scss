@@ -1,22 +1,33 @@
 .about-hopes-section {
   padding-top: 124px;
   min-height: 100vh;
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 40px; //test-31-05-2022
+  }
 }
 
-// .about-hopes-section_container {
-// }
+.about-hopes-section_container {
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+  }
+}
 
 .about-hopes-section_flex-container {
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: calc(100vh);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
   @media screen and (min-width: $tablet) {
     top: 80px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    top: 20px; //test-31-05-2022
   }
 }
 
@@ -49,6 +60,10 @@
 
     padding-left: 142px; //?
     width: 732px; //?
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 100%; //?
   }
 }
 

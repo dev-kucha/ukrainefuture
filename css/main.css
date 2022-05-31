@@ -801,11 +801,22 @@ a {
   min-height: 100vh;
   background-color: var(--main-black);
 }
+@media screen and (min-width: 1200px) {
+  .schools-section {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .schools-section_container {
+    width: 1600px;
+  }
+}
 
 .schools-section_flex-container {
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -820,6 +831,11 @@ a {
 @media screen and (min-width: 768px) {
   .schools-section_flex-container {
     top: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .schools-section_flex-container {
+    top: 20px;
   }
 }
 
@@ -1182,11 +1198,22 @@ a {
   color: var(--base-color);
   min-height: 100vh;
 }
+@media screen and (min-width: 1200px) {
+  .invi-section {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .invi-section_container {
+    width: 1600px;
+  }
+}
 
 .invi-section_flex-container {
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1201,6 +1228,11 @@ a {
 @media screen and (min-width: 768px) {
   .invi-section_flex-container {
     top: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .invi-section_flex-container {
+    top: 20px;
   }
 }
 
@@ -1235,6 +1267,11 @@ a {
     font-size: 48px;
     padding-left: 142px;
     width: 732px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .invi-section_text {
+    width: 100%;
   }
 }
 
@@ -1504,11 +1541,22 @@ a {
   min-height: 100vh;
   background-color: var(--main-black);
 }
+@media screen and (min-width: 1200px) {
+  .aboutwar-section {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .aboutwar-section_container {
+    width: 1600px;
+  }
+}
 
 .aboutwar-section_flex-container {
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1525,6 +1573,11 @@ a {
     top: 80px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .aboutwar-section_flex-container {
+    top: 20px;
+  }
+}
 
 .aboutwar-section_flex-container2 {
   display: -webkit-box;
@@ -1537,9 +1590,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   background-color: var(--main-black);
   margin: 0 -15px;
 }
@@ -1814,11 +1864,22 @@ a {
   padding-top: 124px;
   min-height: 100vh;
 }
+@media screen and (min-width: 1200px) {
+  .about-hopes-section {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about-hopes-section_container {
+    width: 1600px;
+  }
+}
 
 .about-hopes-section_flex-container {
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1833,6 +1894,11 @@ a {
 @media screen and (min-width: 768px) {
   .about-hopes-section_flex-container {
     top: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-section_flex-container {
+    top: 20px;
   }
 }
 
@@ -1869,6 +1935,11 @@ a {
     font-size: 48px;
     padding-left: 142px;
     width: 732px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-hopes-section_text {
+    width: 100%;
   }
 }
 

@@ -21,6 +21,7 @@
     <title>UkraineFuture</title>
   </head>
   <body>
+    <!-- <div id="scale"> -->
     <header class="header">
       <div class="header_container">
         <nav class="top-menu">
@@ -905,10 +906,29 @@
         <div class="copyright">© 2022</div>
       </div>
     </footer>
+
+    <!-- <script>
+        function forcedOriginalScale(containerId) {
+          var App = document.getElementById(containerId); //получаем div по его id
+          App.style.zoom = 1 / devicePixelRatio; //устанавливаем масштаб в зависимости от pixel-ratio
+        }
+
+        document.addEventListener(
+          //когда DOM загрузился
+
+          'DOMContentLoaded',
+
+          function () {
+            forcedOriginalScale('scale'); //выполняем функцию, передаём в неё id нашего контейнера
+          }
+        );
+      </script> -->
+
     <script src="./js/header.js" type="module"></script>
     <script src="./js/menu.js" type="module"></script>
     <script src="./js/site-nav.js" type="module"></script>
     <script src="./js/many-sliders.js" type="module"></script>
     <script src="./js/work-info-ukr.js" type="module"></script>
+    <!-- </div> -->
   </body>
 </html>

@@ -3,13 +3,22 @@
   color: var(--base-color);
   min-height: 100vh;
   background-color: var(--main-black);
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 40px; //test-31-05-2022
+  }
 }
 
+.aboutwar-section_container {
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+  }
+}
 .aboutwar-section_flex-container {
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
-  height: calc(100vh - 124px);
+  height: calc(100vh);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -17,13 +26,17 @@
   @media screen and (min-width: $tablet) {
     top: 80px;
   }
+
+  @media screen and (min-width: $desktop) {
+    top: 20px; //test-31-05-2022
+  }
 }
 
 .aboutwar-section_flex-container2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-grow: 1;
+  // flex-grow: 1;
   background-color: var(--main-black);
   margin: 0 -15px;
 }
@@ -44,6 +57,6 @@
   }
 }
 
-// .invi-section_slider {
-
-// }
+.invi-section_slider {
+  // flex-grow: 0;
+}
