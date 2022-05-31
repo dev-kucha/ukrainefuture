@@ -17,7 +17,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 120px;
-  height: calc(100vh);
+  height: calc(100vh - 127px);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -27,6 +27,7 @@
   }
   @media screen and (min-width: $desktop) {
     top: 20px; //test-31-05-2022
+    height: calc(100vh);
   }
 }
 
